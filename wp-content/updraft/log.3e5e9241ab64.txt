@@ -1,0 +1,1297 @@
+0000.000 (0) Opened log file at time: Tue, 28 Apr 2020 08:55:10 +0000 on https://lastbreath.me
+0000.007 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.23 WP: 5.4 PHP: 7.3.14 (fpm-fcgi, Linux ip-172-31-8-229 4.4.0-1102-aws #113-Ubuntu SMP Wed Jan 29 14:54:54 UTC 2020 x86_64) MySQL: 8.0.18 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 14M | 2M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.012 (0) Free space on disk containing Updraft's temporary directory: 4073.3 MB
+0000.018 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.028 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.048 (0) Set semaphore last lock (fd) time to 2020-04-28 08:55:10
+0000.052 (0) Semaphore lock (fd) complete
+0000.063 (0) Backup run: resumption=0, nonce=3e5e9241ab64, file_nonce=3e5e9241ab64 begun at=1588064110 (0s ago), job type=backup
+0000.072 (0) Scheduling a resumption (1) after 300 seconds (1588064410) in case this run gets aborted
+0000.089 (0) Checking if we have a zip executable available
+0000.094 (0) Testing: /usr/bin/zip
+0000.101 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.106 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.110 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.114 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.118 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.126 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.130 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.142 (0) Working binary zip found: /usr/bin/zip
+0000.150 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.154 (0) Creation of backups of directories: beginning
+0000.168 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0001.839 (0) Total entities for the zip file: 4244 directories, 20429 files (0 skipped as non-modified), 277 MB
+0001.855 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.863 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.872 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.882 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.891 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.895 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.8 MB, 20429 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0002.756 (0) backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: size is now: 4.50 MB
+0002.771 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 600 files added (on-disk size: 4627.5 KB)
+0002.780 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 700 files added (on-disk size: 4627.5 KB)
+0002.789 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 800 files added (on-disk size: 4627.5 KB)
+0002.799 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 900 files added (on-disk size: 4627.5 KB)
+0002.807 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 1000 files added (on-disk size: 4627.5 KB)
+0002.812 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.7 MB, 20429 files batched, 501 (1002) added so far); re-opening (prior size: 4627.5 KB)
+0003.226 (0) backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: size is now: 5.80 MB
+0003.242 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 1100 files added (on-disk size: 5963.5 KB)
+0003.251 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 1200 files added (on-disk size: 5963.5 KB)
+0003.260 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 1300 files added (on-disk size: 5963.5 KB)
+0003.269 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 1400 files added (on-disk size: 5963.5 KB)
+0003.278 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 1500 files added (on-disk size: 5963.5 KB)
+0003.283 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.9 MB, 20429 files batched, 501 (1503) added so far); re-opening (prior size: 5963.5 KB)
+0003.984 (0) backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: size is now: 8.10 MB
+0004.000 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 1600 files added (on-disk size: 8334.7 KB)
+0004.008 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 1700 files added (on-disk size: 8334.7 KB)
+0004.018 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 1800 files added (on-disk size: 8334.7 KB)
+0004.027 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 1900 files added (on-disk size: 8334.7 KB)
+0004.036 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 2000 files added (on-disk size: 8334.7 KB)
+0004.040 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.8 MB, 20429 files batched, 501 (2004) added so far); re-opening (prior size: 8334.7 KB)
+0004.876 (0) backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: size is now: 11.50 MB
+0004.890 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 2100 files added (on-disk size: 11787.8 KB)
+0004.898 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 2200 files added (on-disk size: 11787.8 KB)
+0004.907 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 2300 files added (on-disk size: 11787.8 KB)
+0004.916 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 2400 files added (on-disk size: 11787.8 KB)
+0004.925 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 2500 files added (on-disk size: 11787.8 KB)
+0004.929 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (12.5 MB, 20429 files batched, 501 (2505) added so far); re-opening (prior size: 11787.8 KB)
+0006.015 (0) backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: size is now: 16.20 MB
+0006.029 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 2600 files added (on-disk size: 16562.2 KB)
+0006.042 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 2700 files added (on-disk size: 16562.2 KB)
+0006.050 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 2800 files added (on-disk size: 16562.2 KB)
+0006.060 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 2900 files added (on-disk size: 16562.2 KB)
+0006.069 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 3000 files added (on-disk size: 16562.2 KB)
+0006.074 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.1 MB, 20429 files batched, 501 (3006) added so far); re-opening (prior size: 16562.2 KB)
+0006.723 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 3100 files added (on-disk size: 18661.8 KB)
+0006.733 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 3200 files added (on-disk size: 18661.8 KB)
+0006.742 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 3300 files added (on-disk size: 18661.8 KB)
+0006.752 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 3400 files added (on-disk size: 18661.8 KB)
+0006.761 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 3500 files added (on-disk size: 18661.8 KB)
+0006.766 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.6 MB, 20429 files batched, 501 (3507) added so far); re-opening (prior size: 18661.8 KB)
+0007.312 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 3600 files added (on-disk size: 20055 KB)
+0007.321 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 3700 files added (on-disk size: 20055 KB)
+0007.335 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 3800 files added (on-disk size: 20055 KB)
+0007.344 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 3900 files added (on-disk size: 20055 KB)
+0007.353 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 4000 files added (on-disk size: 20055 KB)
+0007.358 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.6 MB, 20429 files batched, 501 (4008) added so far); re-opening (prior size: 20055 KB)
+0007.984 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 4100 files added (on-disk size: 22389.6 KB)
+0007.993 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 4200 files added (on-disk size: 22389.6 KB)
+0008.003 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 4300 files added (on-disk size: 22389.6 KB)
+0008.012 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 4400 files added (on-disk size: 22389.6 KB)
+0008.021 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 4500 files added (on-disk size: 22389.6 KB)
+0008.026 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.4 MB, 20429 files batched, 501 (4509) added so far); re-opening (prior size: 22389.6 KB)
+0008.468 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 4600 files added (on-disk size: 22949 KB)
+0008.477 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 4700 files added (on-disk size: 22949 KB)
+0008.486 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 4800 files added (on-disk size: 22949 KB)
+0008.496 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 4900 files added (on-disk size: 22949 KB)
+0008.505 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 5000 files added (on-disk size: 22949 KB)
+0008.510 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.3 MB, 20429 files batched, 501 (5010) added so far); re-opening (prior size: 22949 KB)
+0009.535 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 5100 files added (on-disk size: 26041 KB)
+0009.545 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 5200 files added (on-disk size: 26041 KB)
+0009.553 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 5300 files added (on-disk size: 26041 KB)
+0009.562 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 5400 files added (on-disk size: 26041 KB)
+0009.570 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 5500 files added (on-disk size: 26041 KB)
+0009.576 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (18.9 MB, 20429 files batched, 501 (5511) added so far); re-opening (prior size: 26041 KB)
+0010.859 (0) backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: size is now: 30.70 MB
+0010.873 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 5600 files added (on-disk size: 31471.3 KB)
+0010.881 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 5700 files added (on-disk size: 31471.3 KB)
+0010.889 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 5800 files added (on-disk size: 31471.3 KB)
+0010.897 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 5900 files added (on-disk size: 31471.3 KB)
+0010.906 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 6000 files added (on-disk size: 31471.3 KB)
+0010.910 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.3 MB, 20429 files batched, 501 (6012) added so far); re-opening (prior size: 31471.3 KB)
+0011.324 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 6100 files added (on-disk size: 32044.9 KB)
+0011.336 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 6200 files added (on-disk size: 32044.9 KB)
+0011.345 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 6300 files added (on-disk size: 32044.9 KB)
+0011.353 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 6400 files added (on-disk size: 32044.9 KB)
+0011.361 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 6500 files added (on-disk size: 32044.9 KB)
+0011.366 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.9 MB, 20429 files batched, 501 (6513) added so far); re-opening (prior size: 32044.9 KB)
+0011.864 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 6600 files added (on-disk size: 32996.7 KB)
+0011.873 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 6700 files added (on-disk size: 32996.7 KB)
+0011.882 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 6800 files added (on-disk size: 32996.7 KB)
+0011.891 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 6900 files added (on-disk size: 32996.7 KB)
+0011.899 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 7000 files added (on-disk size: 32996.7 KB)
+0011.904 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.1 MB, 20429 files batched, 501 (7014) added so far); re-opening (prior size: 32996.7 KB)
+0012.392 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 7100 files added (on-disk size: 33875.5 KB)
+0012.401 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 7200 files added (on-disk size: 33875.5 KB)
+0012.409 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 7300 files added (on-disk size: 33875.5 KB)
+0012.418 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 7400 files added (on-disk size: 33875.5 KB)
+0012.426 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 7500 files added (on-disk size: 33875.5 KB)
+0012.431 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.2 MB, 20429 files batched, 501 (7515) added so far); re-opening (prior size: 33875.5 KB)
+0013.411 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 7600 files added (on-disk size: 37099.1 KB)
+0013.420 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 7700 files added (on-disk size: 37099.1 KB)
+0013.429 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 7800 files added (on-disk size: 37099.1 KB)
+0013.437 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 7900 files added (on-disk size: 37099.1 KB)
+0013.445 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 8000 files added (on-disk size: 37099.1 KB)
+0013.450 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.7 MB, 20429 files batched, 501 (8016) added so far); re-opening (prior size: 37099.1 KB)
+0014.288 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 8100 files added (on-disk size: 39697.5 KB)
+0014.296 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 8200 files added (on-disk size: 39697.5 KB)
+0014.305 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 8300 files added (on-disk size: 39697.5 KB)
+0014.313 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 8400 files added (on-disk size: 39697.5 KB)
+0014.322 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 8500 files added (on-disk size: 39697.5 KB)
+0014.327 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.2 MB, 20429 files batched, 501 (8517) added so far); re-opening (prior size: 39697.5 KB)
+0014.770 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 8600 files added (on-disk size: 40247.8 KB)
+0014.779 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 8700 files added (on-disk size: 40247.8 KB)
+0014.788 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 8800 files added (on-disk size: 40247.8 KB)
+0014.797 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 8900 files added (on-disk size: 40247.8 KB)
+0014.806 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 9000 files added (on-disk size: 40247.8 KB)
+0014.812 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10 MB, 20429 files batched, 501 (9018) added so far); re-opening (prior size: 40247.8 KB)
+0015.818 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 9100 files added (on-disk size: 43303.8 KB)
+0015.828 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 9200 files added (on-disk size: 43303.8 KB)
+0015.837 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 9300 files added (on-disk size: 43303.8 KB)
+0015.845 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 9400 files added (on-disk size: 43303.8 KB)
+0015.854 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 9500 files added (on-disk size: 43303.8 KB)
+0015.859 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.9 MB, 20429 files batched, 501 (9519) added so far); re-opening (prior size: 43303.8 KB)
+0016.466 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 9600 files added (on-disk size: 44689.7 KB)
+0016.475 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 9700 files added (on-disk size: 44689.7 KB)
+0016.484 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 9800 files added (on-disk size: 44689.7 KB)
+0016.492 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 9900 files added (on-disk size: 44689.7 KB)
+0016.501 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 10000 files added (on-disk size: 44689.7 KB)
+0016.506 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.9 MB, 20429 files batched, 501 (10020) added so far); re-opening (prior size: 44689.7 KB)
+0017.230 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 10100 files added (on-disk size: 46834.4 KB)
+0017.240 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 10200 files added (on-disk size: 46834.4 KB)
+0017.248 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 10300 files added (on-disk size: 46834.4 KB)
+0017.257 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 10400 files added (on-disk size: 46834.4 KB)
+0017.266 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 10500 files added (on-disk size: 46834.4 KB)
+0017.271 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.7 MB, 20429 files batched, 501 (10521) added so far); re-opening (prior size: 46834.4 KB)
+0018.014 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 10600 files added (on-disk size: 47988.8 KB)
+0018.023 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 10700 files added (on-disk size: 47988.8 KB)
+0018.032 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 10800 files added (on-disk size: 47988.8 KB)
+0018.041 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 10900 files added (on-disk size: 47988.8 KB)
+0018.049 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 11000 files added (on-disk size: 47988.8 KB)
+0018.054 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.7 MB, 20429 files batched, 501 (11022) added so far); re-opening (prior size: 47988.8 KB)
+0018.797 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 11100 files added (on-disk size: 50346.1 KB)
+0018.806 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 11200 files added (on-disk size: 50346.1 KB)
+0018.814 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 11300 files added (on-disk size: 50346.1 KB)
+0018.822 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 11400 files added (on-disk size: 50346.1 KB)
+0018.831 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 11500 files added (on-disk size: 50346.1 KB)
+0018.837 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.3 MB, 20429 files batched, 501 (11523) added so far); re-opening (prior size: 50346.1 KB)
+0019.342 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 11600 files added (on-disk size: 50880.5 KB)
+0019.351 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 11700 files added (on-disk size: 50880.5 KB)
+0019.360 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 11800 files added (on-disk size: 50880.5 KB)
+0019.369 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 11900 files added (on-disk size: 50880.5 KB)
+0019.382 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 12000 files added (on-disk size: 50880.5 KB)
+0019.388 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.4 MB, 20429 files batched, 501 (12024) added so far); re-opening (prior size: 50880.5 KB)
+0020.499 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 12100 files added (on-disk size: 54006.4 KB)
+0020.508 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 12200 files added (on-disk size: 54006.4 KB)
+0020.517 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 12300 files added (on-disk size: 54006.4 KB)
+0020.525 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 12400 files added (on-disk size: 54006.4 KB)
+0020.534 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 12500 files added (on-disk size: 54006.4 KB)
+0020.539 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (17 MB, 20429 files batched, 501 (12525) added so far); re-opening (prior size: 54006.4 KB)
+0021.802 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 12600 files added (on-disk size: 60581.1 KB)
+0021.810 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 12700 files added (on-disk size: 60581.1 KB)
+0021.820 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 12800 files added (on-disk size: 60581.1 KB)
+0021.829 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 12900 files added (on-disk size: 60581.1 KB)
+0021.838 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 13000 files added (on-disk size: 60581.1 KB)
+0021.844 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.3 MB, 20429 files batched, 501 (13026) added so far); re-opening (prior size: 60581.1 KB)
+0022.516 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 13100 files added (on-disk size: 61725.9 KB)
+0022.533 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 13200 files added (on-disk size: 61725.9 KB)
+0022.542 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 13300 files added (on-disk size: 61725.9 KB)
+0022.553 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 13400 files added (on-disk size: 61725.9 KB)
+0022.562 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 13500 files added (on-disk size: 61725.9 KB)
+0022.568 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.8 MB, 20429 files batched, 501 (13527) added so far); re-opening (prior size: 61725.9 KB)
+0023.462 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 13600 files added (on-disk size: 64926.9 KB)
+0023.472 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 13700 files added (on-disk size: 64926.9 KB)
+0023.481 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 13800 files added (on-disk size: 64926.9 KB)
+0023.491 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 13900 files added (on-disk size: 64926.9 KB)
+0023.500 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 14000 files added (on-disk size: 64926.9 KB)
+0023.506 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.3 MB, 20429 files batched, 501 (14028) added so far); re-opening (prior size: 64926.9 KB)
+0024.498 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 14100 files added (on-disk size: 67251.3 KB)
+0024.508 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 14200 files added (on-disk size: 67251.3 KB)
+0024.517 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 14300 files added (on-disk size: 67251.3 KB)
+0024.527 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 14400 files added (on-disk size: 67251.3 KB)
+0024.536 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 14500 files added (on-disk size: 67251.3 KB)
+0024.542 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.2 MB, 20429 files batched, 501 (14529) added so far); re-opening (prior size: 67251.3 KB)
+0025.625 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 14600 files added (on-disk size: 69308.7 KB)
+0025.638 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 14700 files added (on-disk size: 69308.7 KB)
+0025.647 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 14800 files added (on-disk size: 69308.7 KB)
+0025.657 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 14900 files added (on-disk size: 69308.7 KB)
+0025.667 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 15000 files added (on-disk size: 69308.7 KB)
+0025.673 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.2 MB, 20429 files batched, 501 (15030) added so far); re-opening (prior size: 69308.7 KB)
+0026.758 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 15100 files added (on-disk size: 71224 KB)
+0026.767 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 15200 files added (on-disk size: 71224 KB)
+0026.776 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 15300 files added (on-disk size: 71224 KB)
+0026.786 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 15400 files added (on-disk size: 71224 KB)
+0026.795 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 15500 files added (on-disk size: 71224 KB)
+0026.802 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.2 MB, 20429 files batched, 501 (15531) added so far); re-opening (prior size: 71224 KB)
+0028.433 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 15600 files added (on-disk size: 72717.1 KB)
+0028.442 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 15700 files added (on-disk size: 72717.1 KB)
+0028.452 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 15800 files added (on-disk size: 72717.1 KB)
+0028.461 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 15900 files added (on-disk size: 72717.1 KB)
+0028.470 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 16000 files added (on-disk size: 72717.1 KB)
+0028.475 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.9 MB, 20429 files batched, 501 (16032) added so far); re-opening (prior size: 72717.1 KB)
+0029.314 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 16100 files added (on-disk size: 75129.3 KB)
+0029.323 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 16200 files added (on-disk size: 75129.3 KB)
+0029.333 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 16300 files added (on-disk size: 75129.3 KB)
+0029.343 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 16400 files added (on-disk size: 75129.3 KB)
+0029.353 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 16500 files added (on-disk size: 75129.3 KB)
+0029.359 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.3 MB, 20429 files batched, 501 (16533) added so far); re-opening (prior size: 75129.3 KB)
+0030.349 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 16600 files added (on-disk size: 75659 KB)
+0030.358 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 16700 files added (on-disk size: 75659 KB)
+0030.368 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 16800 files added (on-disk size: 75659 KB)
+0030.377 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 16900 files added (on-disk size: 75659 KB)
+0030.387 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 17000 files added (on-disk size: 75659 KB)
+0030.394 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.7 MB, 20429 files batched, 501 (17034) added so far); re-opening (prior size: 75659 KB)
+0032.137 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 17100 files added (on-disk size: 78663.7 KB)
+0032.146 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 17200 files added (on-disk size: 78663.7 KB)
+0032.155 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 17300 files added (on-disk size: 78663.7 KB)
+0032.165 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 17400 files added (on-disk size: 78663.7 KB)
+0032.174 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 17500 files added (on-disk size: 78663.7 KB)
+0032.180 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (21.5 MB, 20429 files batched, 501 (17535) added so far); re-opening (prior size: 78663.7 KB)
+0034.287 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 17600 files added (on-disk size: 85686.4 KB)
+0034.297 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 17700 files added (on-disk size: 85686.4 KB)
+0034.306 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 17800 files added (on-disk size: 85686.4 KB)
+0034.315 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 17900 files added (on-disk size: 85686.4 KB)
+0034.324 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 18000 files added (on-disk size: 85686.4 KB)
+0034.331 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3 MB, 20429 files batched, 501 (18036) added so far); re-opening (prior size: 85686.4 KB)
+0035.213 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 18100 files added (on-disk size: 86678.6 KB)
+0035.222 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 18200 files added (on-disk size: 86678.6 KB)
+0035.232 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 18300 files added (on-disk size: 86678.6 KB)
+0035.241 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 18400 files added (on-disk size: 86678.6 KB)
+0035.250 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 18500 files added (on-disk size: 86678.6 KB)
+0035.256 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.5 MB, 20429 files batched, 501 (18537) added so far); re-opening (prior size: 86678.6 KB)
+0036.617 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 18600 files added (on-disk size: 87414.5 KB)
+0036.625 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 18700 files added (on-disk size: 87414.5 KB)
+0036.634 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 18800 files added (on-disk size: 87414.5 KB)
+0036.644 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 18900 files added (on-disk size: 87414.5 KB)
+0036.653 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 19000 files added (on-disk size: 87414.5 KB)
+0036.659 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.2 MB, 20429 files batched, 501 (19038) added so far); re-opening (prior size: 87414.5 KB)
+0038.299 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 19100 files added (on-disk size: 88341.3 KB)
+0038.309 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 19200 files added (on-disk size: 88341.3 KB)
+0038.318 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 19300 files added (on-disk size: 88341.3 KB)
+0038.328 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 19400 files added (on-disk size: 88341.3 KB)
+0038.338 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 19500 files added (on-disk size: 88341.3 KB)
+0038.345 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.5 MB, 20429 files batched, 501 (19539) added so far); re-opening (prior size: 88341.3 KB)
+0039.388 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 19600 files added (on-disk size: 88957.2 KB)
+0039.397 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 19700 files added (on-disk size: 88957.2 KB)
+0039.406 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 19800 files added (on-disk size: 88957.2 KB)
+0039.415 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 19900 files added (on-disk size: 88957.2 KB)
+0039.426 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 20000 files added (on-disk size: 88957.2 KB)
+0039.432 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.6 MB, 20429 files batched, 501 (20040) added so far); re-opening (prior size: 88957.2 KB)
+0041.096 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 20100 files added (on-disk size: 93488.2 KB)
+0041.105 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 20200 files added (on-disk size: 93488.2 KB)
+0041.114 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 20300 files added (on-disk size: 93488.2 KB)
+0041.124 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip.tmp: 20400 files added (on-disk size: 93488.2 KB)
+0043.698 (0) Created plugins zip (0) - 95013.1 KB in 43.5 s (2183 KB/s) (sha1: 925417ae136ad980285667d601ad7e61fedbae1e, sha256: 2879bc5450db858d07bf841a217d65a9bf5944aeac5cd289981e71f68e487262)
+0043.707 (0) Beginning creation of dump of themes (split every: 400 MB)
+0043.735 (0) Total entities for the zip file: 264 directories, 1248 files (0 skipped as non-modified), 30.4 MB
+0043.745 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0043.753 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0043.762 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0043.771 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0043.780 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0043.784 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (13.1 MB, 1248 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0044.824 (0) backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-themes.zip.tmp: size is now: 6.20 MB
+0044.838 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-themes.zip.tmp: 600 files added (on-disk size: 6357.3 KB)
+0044.847 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-themes.zip.tmp: 700 files added (on-disk size: 6357.3 KB)
+0044.856 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-themes.zip.tmp: 800 files added (on-disk size: 6357.3 KB)
+0044.865 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-themes.zip.tmp: 900 files added (on-disk size: 6357.3 KB)
+0044.872 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-themes.zip.tmp: 1000 files added (on-disk size: 6357.3 KB)
+0044.876 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.7 MB, 1248 files batched, 501 (1002) added so far); re-opening (prior size: 6357.3 KB)
+0045.703 (0) backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-themes.zip.tmp: size is now: 9.30 MB
+0045.717 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-themes.zip.tmp: 1100 files added (on-disk size: 9493.4 KB)
+0045.725 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-themes.zip.tmp: 1200 files added (on-disk size: 9493.4 KB)
+0046.182 (0) backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-themes.zip.tmp: size is now: 12.90 MB
+0046.357 (0) Created themes zip (0) - 13218.1 KB in 2.6 s (4995.1 KB/s) (sha1: 7d0411d354b2e1b01e8a6cdaf313c7635c7f295b, sha256: 8506a454c8f4aff0c9ad7a010a855cf43de81ab86b511fa17260613f3f50b277)
+0046.366 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0046.369 (0) Looking for candidates to backup in: /opt/bitnami/apps/wordpress/htdocs/wp-content/uploads
+0046.374 (0) finding files: woocommerce-placeholder-300x300.png: adding to list (1)
+0046.378 (0) finding files: woocommerce-placeholder-100x100.png: adding to list (2)
+0046.382 (0) finding files: woocommerce-placeholder-150x150.png: adding to list (3)
+0046.386 (0) finding files: wc-logs: adding to list (4)
+0046.390 (0) finding files: ddl-layouts-tmp: adding to list (5)
+0046.394 (0) finding files: woocommerce-placeholder-768x768.png: adding to list (6)
+0046.398 (0) finding files: woocommerce_uploads: adding to list (7)
+0046.405 (0) finding files: woocommerce-placeholder-1024x1024.png: adding to list (8)
+0046.408 (0) finding files: elementor: adding to list (9)
+0046.411 (0) finding files: wpallimport: adding to list (10)
+0046.415 (0) finding files: 2020: adding to list (11)
+0046.419 (0) finding files: woocommerce-placeholder-600x600.png: adding to list (12)
+0046.423 (0) finding files: woocommerce-placeholder.png: adding to list (13)
+0046.426 (0) finding files: smack_uci_uploads: adding to list (14)
+0046.431 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0046.467 (0) Total entities for the zip file: 22 directories, 2486 files (0 skipped as non-modified), 390.3 MB
+0046.476 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0046.484 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0046.493 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0046.499 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.1 MB, 2486 files batched, 332 (332) added so far); re-opening (prior size: 0 KB)
+0046.942 (0) backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-uploads.zip.tmp: size is now: 24.00 MB
+0046.950 (0) A useful amount of data was added after this amount of zip processing: 1.3 s (normalised: 1.3 s, rate: 20323.8 KB/s)
+0046.958 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.2631549835205, normalised_time=1.2596077718909, max_time=46.953928947449, data points known=1, old_max_bytes=26214400, new_max_bytes=209715200)
+0046.970 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-uploads.zip.tmp: 400 files added (on-disk size: 24615.5 KB)
+0046.980 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-uploads.zip.tmp: 500 files added (on-disk size: 24615.5 KB)
+0046.988 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-uploads.zip.tmp: 600 files added (on-disk size: 24615.5 KB)
+0046.997 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-uploads.zip.tmp: 700 files added (on-disk size: 24615.5 KB)
+0047.005 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-uploads.zip.tmp: 800 files added (on-disk size: 24615.5 KB)
+0047.011 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (76.6 MB, 2486 files batched, 501 (833) added so far); re-opening (prior size: 24615.5 KB)
+0048.287 (0) backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-uploads.zip.tmp: size is now: 100.70 MB
+0048.306 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-uploads.zip.tmp: 900 files added (on-disk size: 103141.1 KB)
+0048.315 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-uploads.zip.tmp: 1000 files added (on-disk size: 103141.1 KB)
+0048.324 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-uploads.zip.tmp: 1100 files added (on-disk size: 103141.1 KB)
+0048.333 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-uploads.zip.tmp: 1200 files added (on-disk size: 103141.1 KB)
+0048.343 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-uploads.zip.tmp: 1300 files added (on-disk size: 103141.1 KB)
+0048.348 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (85 MB, 2486 files batched, 501 (1334) added so far); re-opening (prior size: 103141.1 KB)
+0051.654 (0) backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-uploads.zip.tmp: size is now: 185.80 MB
+0051.673 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-uploads.zip.tmp: 1400 files added (on-disk size: 190255.5 KB)
+0051.682 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-uploads.zip.tmp: 1500 files added (on-disk size: 190255.5 KB)
+0051.693 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-uploads.zip.tmp: 1600 files added (on-disk size: 190255.5 KB)
+0051.705 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-uploads.zip.tmp: 1700 files added (on-disk size: 190255.5 KB)
+0051.714 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-uploads.zip.tmp: 1800 files added (on-disk size: 190255.5 KB)
+0051.722 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (93.6 MB, 2486 files batched, 501 (1835) added so far); re-opening (prior size: 190255.5 KB)
+0056.299 (0) backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-uploads.zip.tmp: size is now: 279.50 MB
+0056.317 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-uploads.zip.tmp: 1900 files added (on-disk size: 286228.9 KB)
+0056.328 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-uploads.zip.tmp: 2000 files added (on-disk size: 286228.9 KB)
+0056.339 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-uploads.zip.tmp: 2100 files added (on-disk size: 286228.9 KB)
+0056.348 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-uploads.zip.tmp: 2200 files added (on-disk size: 286228.9 KB)
+0056.359 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-uploads.zip.tmp: 2300 files added (on-disk size: 286228.9 KB)
+0056.365 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (81.4 MB, 2486 files batched, 501 (2336) added so far); re-opening (prior size: 286228.9 KB)
+0062.160 (0) backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-uploads.zip.tmp: size is now: 361.00 MB
+0062.179 (0) Zip: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-uploads.zip.tmp: 2400 files added (on-disk size: 369672.3 KB)
+0076.636 (0) Created uploads zip (0) - 398954.2 KB in 30.2 s (13210.2 KB/s) (sha1: de632d2cf75d0ab9ca346390cb3ee52e75eaf146, sha256: 999286ef55428726090bd74e8184746c4b9576d5cda8601a8084401b7a106a66)
+0076.646 (0) Beginning backup of other directories found in the content directory (index: 0)
+0076.651 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0076.655 (0) Looking for candidates to backup in: /opt/bitnami/apps/wordpress/htdocs/wp-content
+0076.659 (0) finding files: index.php: adding to list (1)
+0076.663 (0) finding files: updraft: skipping: this is the updraft directory
+0076.667 (0) finding files: wpbackitup_backups: skipping: excluded by options (glob)
+0076.671 (0) finding files: wpbackitup_restore: adding to list (2)
+0076.675 (0) finding files: uploads: skipping: this is the uploads directory
+0076.679 (0) finding files: plugins: skipping: this is the plugins directory
+0076.684 (0) finding files: upgrade: skipping: excluded by options
+0076.687 (0) finding files: languages: adding to list (3)
+0076.692 (0) finding files: themes: skipping: this is the themes directory
+0076.696 (0) finding files: _modulemanager_tmp_: adding to list (4)
+0076.708 (0) Total entities for the zip file: 5 directories, 5 files (0 skipped as non-modified), 0 MB
+0076.720 (0) backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-others.zip.tmp: size is now: 0.00 MB
+0076.740 (0) Created others zip (0) - 1.9 KB in 0 s (50.6 KB/s) (sha1: 9d1176914752a578e33d53c95835594bfa812092, sha256: 46849695f177d94946b1655662bcf4d334f6f74551dcf9a5a4d3d98f18114edc)
+0076.762 (0) Saving backup status to database (elements: 8)
+0076.774 (0) Beginning creation of database dump (WordPress DB)
+0076.807 (0) Table wp_options: Total expected rows (approximate): 475
+0077.061 (0) Table wp_options: Total rows added: 549 in 0.25 seconds
+0077.069 (0) Table wp_options: finishing file (backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_options.table.gz - 485.1 KB)
+0077.085 (0) Table wp_users: Total expected rows (approximate): 1
+0077.094 (0) Table wp_users: Total rows added: 1 in 0.00 seconds
+0077.098 (0) Table wp_users: finishing file (backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_users.table.gz - 0.5 KB)
+0077.113 (0) Table wp_usermeta: Total expected rows (approximate): 61
+0077.118 (0) Table wp_usermeta: Total rows added: 63 in 0.00 seconds
+0077.123 (0) Table wp_usermeta: finishing file (backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_usermeta.table.gz - 2.6 KB)
+0077.138 (0) Table wp_actionscheduler_actions: Total expected rows (approximate): 34
+0077.145 (0) Table wp_actionscheduler_actions: Total rows added: 37 in 0.00 seconds
+0077.148 (0) Table wp_actionscheduler_actions: finishing file (backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_actionscheduler_actions.table.gz - 1.9 KB)
+0077.163 (0) Table wp_actionscheduler_claims: Total expected rows (approximate): 0
+0077.168 (0) Table wp_actionscheduler_claims: Total rows added: 0 in 0.00 seconds
+0077.171 (0) Table wp_actionscheduler_claims: finishing file (backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_actionscheduler_claims.table.gz - 0.4 KB)
+0077.186 (0) Table wp_actionscheduler_groups: Total expected rows (approximate): 2
+0077.193 (0) Table wp_actionscheduler_groups: Total rows added: 2 in 0.00 seconds
+0077.198 (0) Table wp_actionscheduler_groups: finishing file (backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_actionscheduler_groups.table.gz - 0.4 KB)
+0077.222 (0) Table wp_actionscheduler_logs: Total expected rows (approximate): 98
+0077.240 (0) Table wp_actionscheduler_logs: Total rows added: 107 in 0.01 seconds
+0077.248 (0) Table wp_actionscheduler_logs: finishing file (backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_actionscheduler_logs.table.gz - 1.5 KB)
+0077.263 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0077.269 (0) Table wp_commentmeta: Total rows added: 0 in 0.00 seconds
+0077.274 (0) Table wp_commentmeta: finishing file (backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0077.289 (0) Table wp_comments: Total expected rows (approximate): 0
+0077.297 (0) Table wp_comments: Total rows added: 0 in 0.00 seconds
+0077.302 (0) Table wp_comments: finishing file (backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_comments.table.gz - 0.5 KB)
+0077.318 (0) Table wp_links: Total expected rows (approximate): 0
+0077.332 (0) Table wp_links: Total rows added: 0 in 0.01 seconds
+0077.336 (0) Table wp_links: finishing file (backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_links.table.gz - 0.4 KB)
+0077.351 (0) Table wp_postmeta: Total expected rows (approximate): 7912
+0078.385 (0) Table wp_postmeta: Total rows added: 9061 in 1.03 seconds
+0078.392 (0) Table wp_postmeta: finishing file (backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_postmeta.table.gz - 1096.8 KB)
+0078.412 (0) Table wp_posts: Total expected rows (approximate): 1062
+0078.517 (0) Table wp_posts: Total rows added: 1106 in 0.10 seconds
+0078.523 (0) Table wp_posts: finishing file (backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_posts.table.gz - 97.5 KB)
+0078.538 (0) Table wp_term_relationships: Total expected rows (approximate): 36
+0078.546 (0) Table wp_term_relationships: Total rows added: 41 in 0.00 seconds
+0078.550 (0) Table wp_term_relationships: finishing file (backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_term_relationships.table.gz - 0.5 KB)
+0078.565 (0) Table wp_term_taxonomy: Total expected rows (approximate): 13
+0078.573 (0) Table wp_term_taxonomy: Total rows added: 15 in 0.00 seconds
+0078.578 (0) Table wp_term_taxonomy: finishing file (backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_term_taxonomy.table.gz - 0.5 KB)
+0078.592 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0078.599 (0) Table wp_termmeta: Total rows added: 0 in 0.00 seconds
+0078.603 (0) Table wp_termmeta: finishing file (backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_termmeta.table.gz - 0.4 KB)
+0078.622 (0) Table wp_terms: Total expected rows (approximate): 15
+0078.632 (0) Table wp_terms: Total rows added: 15 in 0.00 seconds
+0078.636 (0) Table wp_terms: finishing file (backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_terms.table.gz - 0.5 KB)
+0078.645 (0) Skipping table (lacks our prefix (wp_)): smackuci_events
+0078.656 (0) Table wp_import_detail_log: Total expected rows (approximate): 0
+0078.666 (0) Table wp_import_detail_log: Total rows added: 0 in 0.01 seconds
+0078.671 (0) Table wp_import_detail_log: finishing file (backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_import_detail_log.table.gz - 0.4 KB)
+0078.686 (0) Table wp_import_log_detail: Total expected rows (approximate): 0
+0078.694 (0) Table wp_import_log_detail: Total rows added: 0 in 0.00 seconds
+0078.698 (0) Table wp_import_log_detail: finishing file (backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_import_log_detail.table.gz - 0.3 KB)
+0078.713 (0) Table wp_import_postid: Total expected rows (approximate): 0
+0078.719 (0) Table wp_import_postid: Total rows added: 0 in 0.00 seconds
+0078.723 (0) Table wp_import_postid: finishing file (backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_import_postid.table.gz - 0.2 KB)
+0078.738 (0) Table wp_mb_relationships: Total expected rows (approximate): 0
+0078.745 (0) Table wp_mb_relationships: Total rows added: 0 in 0.00 seconds
+0078.749 (0) Table wp_mb_relationships: finishing file (backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_mb_relationships.table.gz - 0.4 KB)
+0078.764 (0) Table wp_pmxi_files: Total expected rows (approximate): 0
+0078.772 (0) Table wp_pmxi_files: Total rows added: 1 in 0.00 seconds
+0078.776 (0) Table wp_pmxi_files: finishing file (backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_pmxi_files.table.gz - 0.5 KB)
+0078.791 (0) Table wp_pmxi_history: Total expected rows (approximate): 0
+0078.799 (0) Table wp_pmxi_history: Total rows added: 1 in 0.00 seconds
+0078.803 (0) Table wp_pmxi_history: finishing file (backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_pmxi_history.table.gz - 0.5 KB)
+0078.844 (0) Table wp_pmxi_images: Total expected rows (approximate): 0
+0078.852 (0) Table wp_pmxi_images: Total rows added: 0 in 0.00 seconds
+0078.856 (0) Table wp_pmxi_images: finishing file (backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_pmxi_images.table.gz - 0.3 KB)
+0078.872 (0) Table wp_pmxi_imports: Total expected rows (approximate): 0
+0078.880 (0) Table wp_pmxi_imports: Total rows added: 1 in 0.00 seconds
+0078.887 (0) Table wp_pmxi_imports: finishing file (backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_pmxi_imports.table.gz - 2.5 KB)
+0078.901 (0) Table wp_pmxi_posts: Total expected rows (approximate): 1
+0078.909 (0) Table wp_pmxi_posts: Total rows added: 0 in 0.00 seconds
+0078.915 (0) Table wp_pmxi_posts: finishing file (backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_pmxi_posts.table.gz - 0.4 KB)
+0078.930 (0) Table wp_pmxi_templates: Total expected rows (approximate): 0
+0078.936 (0) Table wp_pmxi_templates: Total rows added: 0 in 0.00 seconds
+0078.940 (0) Table wp_pmxi_templates: finishing file (backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_pmxi_templates.table.gz - 0.4 KB)
+0078.955 (0) Table wp_smackcsv_file_events: Total expected rows (approximate): 1
+0078.965 (0) Table wp_smackcsv_file_events: Total rows added: 1 in 0.01 seconds
+0078.969 (0) Table wp_smackcsv_file_events: finishing file (backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_smackcsv_file_events.table.gz - 0.4 KB)
+0078.984 (0) Table wp_toolset_associations: Total expected rows (approximate): 0
+0078.992 (0) Table wp_toolset_associations: Total rows added: 0 in 0.00 seconds
+0078.997 (0) Table wp_toolset_associations: finishing file (backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_toolset_associations.table.gz - 0.4 KB)
+0079.012 (0) Table wp_toolset_post_guid_id: Total expected rows (approximate): 7
+0079.019 (0) Table wp_toolset_post_guid_id: Total rows added: 8 in 0.00 seconds
+0079.024 (0) Table wp_toolset_post_guid_id: finishing file (backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_toolset_post_guid_id.table.gz - 0.5 KB)
+0079.039 (0) Table wp_toolset_relationships: Total expected rows (approximate): 1
+0079.046 (0) Table wp_toolset_relationships: Total rows added: 1 in 0.00 seconds
+0079.050 (0) Table wp_toolset_relationships: finishing file (backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_toolset_relationships.table.gz - 0.7 KB)
+0079.065 (0) Table wp_toolset_type_sets: Total expected rows (approximate): 2
+0079.072 (0) Table wp_toolset_type_sets: Total rows added: 2 in 0.00 seconds
+0079.075 (0) Table wp_toolset_type_sets: finishing file (backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_toolset_type_sets.table.gz - 0.4 KB)
+0079.091 (0) Table wp_ultimate_csv_importer_acf_fields: Total expected rows (approximate): 0
+0079.098 (0) Table wp_ultimate_csv_importer_acf_fields: Total rows added: 0 in 0.00 seconds
+0079.103 (0) Table wp_ultimate_csv_importer_acf_fields: finishing file (backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_ultimate_csv_importer_acf_fields.table.gz - 0.3 KB)
+0079.120 (0) Table wp_ultimate_csv_importer_mappingtemplate: Total expected rows (approximate): 0
+0079.127 (0) Table wp_ultimate_csv_importer_mappingtemplate: Total rows added: 0 in 0.00 seconds
+0079.131 (0) Table wp_ultimate_csv_importer_mappingtemplate: finishing file (backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_ultimate_csv_importer_mappingtemplate.table.gz - 0.4 KB)
+0079.146 (0) Table wp_ultimate_csv_importer_media: Total expected rows (approximate): 0
+0079.153 (0) Table wp_ultimate_csv_importer_media: Total rows added: 0 in 0.00 seconds
+0079.156 (0) Table wp_ultimate_csv_importer_media: finishing file (backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_ultimate_csv_importer_media.table.gz - 0.3 KB)
+0079.171 (0) Table wp_ultimate_csv_importer_shortcode_manager: Total expected rows (approximate): 0
+0079.177 (0) Table wp_ultimate_csv_importer_shortcode_manager: Total rows added: 0 in 0.00 seconds
+0079.182 (0) Table wp_ultimate_csv_importer_shortcode_manager: finishing file (backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_ultimate_csv_importer_shortcode_manager.table.gz - 0.3 KB)
+0079.196 (0) Table wp_wpbackitup_job_control: Total expected rows (approximate): 4
+0079.203 (0) Table wp_wpbackitup_job_control: Total rows added: 4 in 0.00 seconds
+0079.206 (0) Table wp_wpbackitup_job_control: finishing file (backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_wpbackitup_job_control.table.gz - 0.8 KB)
+0079.257 (0) Table wp_wpbackitup_job_items: Total expected rows (approximate): 9339
+0079.431 (0) Table wp_wpbackitup_job_items: Total rows added: 9532 in 0.17 seconds
+0079.436 (0) Table wp_wpbackitup_job_items: finishing file (backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_wpbackitup_job_items.table.gz - 125.9 KB)
+0079.451 (0) Table wp_wpbackitup_job_tasks: Total expected rows (approximate): 40
+0079.460 (0) Table wp_wpbackitup_job_tasks: Total rows added: 40 in 0.00 seconds
+0079.464 (0) Table wp_wpbackitup_job_tasks: finishing file (backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_wpbackitup_job_tasks.table.gz - 1.3 KB)
+0079.477 (0) Table wp_wpdatacharts: Total expected rows (approximate): 0
+0079.485 (0) Table wp_wpdatacharts: Total rows added: 0 in 0.00 seconds
+0079.489 (0) Table wp_wpdatacharts: finishing file (backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_wpdatacharts.table.gz - 0.3 KB)
+0079.504 (0) Table wp_wpdatatables: Total expected rows (approximate): 0
+0079.513 (0) Table wp_wpdatatables: Total rows added: 0 in 0.01 seconds
+0079.518 (0) Table wp_wpdatatables: finishing file (backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_wpdatatables.table.gz - 0.6 KB)
+0079.533 (0) Table wp_wpdatatables_columns: Total expected rows (approximate): 0
+0079.546 (0) Table wp_wpdatatables_columns: Total rows added: 0 in 0.01 seconds
+0079.549 (0) Table wp_wpdatatables_columns: finishing file (backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_wpdatatables_columns.table.gz - 0.7 KB)
+0079.564 (0) Table wp_wpforms_tasks_meta: Total expected rows (approximate): 6
+0079.572 (0) Table wp_wpforms_tasks_meta: Total rows added: 6 in 0.00 seconds
+0079.575 (0) Table wp_wpforms_tasks_meta: finishing file (backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_wpforms_tasks_meta.table.gz - 0.5 KB)
+0079.586 (0) backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_options.table.gz (1/43): adding to final database dump
+0079.785 (0) backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_users.table.gz (2/43): adding to final database dump
+0079.791 (0) backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_usermeta.table.gz (3/43): adding to final database dump
+0079.796 (0) backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_actionscheduler_actions.table.gz (4/43): adding to final database dump
+0079.801 (0) backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_actionscheduler_claims.table.gz (5/43): adding to final database dump
+0079.805 (0) backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_actionscheduler_groups.table.gz (6/43): adding to final database dump
+0079.809 (0) backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_actionscheduler_logs.table.gz (7/43): adding to final database dump
+0079.814 (0) backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_commentmeta.table.gz (8/43): adding to final database dump
+0079.818 (0) backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_comments.table.gz (9/43): adding to final database dump
+0079.822 (0) backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_links.table.gz (10/43): adding to final database dump
+0079.827 (0) backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_postmeta.table.gz (11/43): adding to final database dump
+0080.537 (0) backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_posts.table.gz (12/43): adding to final database dump
+0080.609 (0) backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_term_relationships.table.gz (13/43): adding to final database dump
+0080.614 (0) backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_term_taxonomy.table.gz (14/43): adding to final database dump
+0080.618 (0) backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_termmeta.table.gz (15/43): adding to final database dump
+0080.622 (0) backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_terms.table.gz (16/43): adding to final database dump
+0080.628 (0) backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_import_detail_log.table.gz (17/43): adding to final database dump
+0080.631 (0) backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_import_log_detail.table.gz (18/43): adding to final database dump
+0080.635 (0) backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_import_postid.table.gz (19/43): adding to final database dump
+0080.639 (0) backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_mb_relationships.table.gz (20/43): adding to final database dump
+0080.643 (0) backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_pmxi_files.table.gz (21/43): adding to final database dump
+0080.647 (0) backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_pmxi_history.table.gz (22/43): adding to final database dump
+0080.651 (0) backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_pmxi_images.table.gz (23/43): adding to final database dump
+0080.655 (0) backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_pmxi_imports.table.gz (24/43): adding to final database dump
+0080.660 (0) backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_pmxi_posts.table.gz (25/43): adding to final database dump
+0080.663 (0) backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_pmxi_templates.table.gz (26/43): adding to final database dump
+0080.668 (0) backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_smackcsv_file_events.table.gz (27/43): adding to final database dump
+0080.671 (0) backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_toolset_associations.table.gz (28/43): adding to final database dump
+0080.675 (0) backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_toolset_post_guid_id.table.gz (29/43): adding to final database dump
+0080.679 (0) backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_toolset_relationships.table.gz (30/43): adding to final database dump
+0080.683 (0) backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_toolset_type_sets.table.gz (31/43): adding to final database dump
+0080.687 (0) backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_ultimate_csv_importer_acf_fields.table.gz (32/43): adding to final database dump
+0080.692 (0) backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_ultimate_csv_importer_mappingtemplate.table.gz (33/43): adding to final database dump
+0080.697 (0) backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_ultimate_csv_importer_media.table.gz (34/43): adding to final database dump
+0080.702 (0) backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_ultimate_csv_importer_shortcode_manager.table.gz (35/43): adding to final database dump
+0080.706 (0) backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_wpbackitup_job_control.table.gz (36/43): adding to final database dump
+0080.710 (0) backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_wpbackitup_job_items.table.gz (37/43): adding to final database dump
+0080.789 (0) backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_wpbackitup_job_tasks.table.gz (38/43): adding to final database dump
+0080.794 (0) backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_wpdatacharts.table.gz (39/43): adding to final database dump
+0080.798 (0) backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_wpdatatables.table.gz (40/43): adding to final database dump
+0080.802 (0) backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_wpdatatables_columns.table.gz (41/43): adding to final database dump
+0080.807 (0) backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db-table-wp_wpforms_tasks_meta.table.gz (42/43): adding to final database dump
+0080.823 (0) backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db.gz: finished writing out complete database file (1792 KB)
+0080.864 (0) Total database tables backed up: 42 (backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db.gz, size: 1861955, sha1: fec0370630bd79a24c8831b40ee7f48b5dc7a50c, sha256: 2f43781eccd76bcc32677a65774f95a7e43019fcecf84c176b07b4d783fa61cb)
+0080.883 (0) backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0080.887 (0) backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0080.891 (0) backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0080.895 (0) backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-others.zip: others: This file has not yet been successfully uploaded: will queue
+0080.900 (0) backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db.gz: db: This file has not yet been successfully uploaded: will queue
+0080.903 (0) Saving backup history. Total backup size: 497.1 MB
+0080.912 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0080.925 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0080.933 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-34faa9f13e6f8c217d8a8f65adfd3583)
+0081.937 (0) Google Drive: creating path: /UpdraftPlus
+0083.462 (0) Google Drive: quota usage: used=1012 MB, total=10486772 MB, available=10485760 MB
+0083.467 (0) Google Drive: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip: Attempting to upload to Google Drive (into folder id: 18OXNXDl8YpYGY6hRvbUI1RRfV1aBGynC)
+0085.274 (0) Googledrive chunked upload: 1.1 % uploaded (1048576)
+0086.261 (0) Googledrive chunked upload: 2.2 % uploaded (2097152)
+0087.018 (0) Googledrive chunked upload: 3.2 % uploaded (3145728)
+0087.766 (0) Googledrive chunked upload: 4.3 % uploaded (4194304)
+0088.583 (0) Googledrive chunked upload: 5.4 % uploaded (5242880)
+0089.403 (0) Googledrive chunked upload: 6.5 % uploaded (6291456)
+0090.404 (0) Googledrive chunked upload: 7.5 % uploaded (7340032)
+0091.180 (0) Googledrive chunked upload: 8.6 % uploaded (8388608)
+0092.091 (0) Googledrive chunked upload: 9.7 % uploaded (9437184)
+0092.969 (0) Googledrive chunked upload: 10.8 % uploaded (10485760)
+0093.722 (0) Googledrive chunked upload: 11.9 % uploaded (11534336)
+0094.513 (0) Googledrive chunked upload: 12.9 % uploaded (12582912)
+0095.294 (0) Googledrive chunked upload: 14 % uploaded (13631488)
+0096.034 (0) Googledrive chunked upload: 15.1 % uploaded (14680064)
+0096.765 (0) Googledrive chunked upload: 16.2 % uploaded (15728640)
+0097.679 (0) Googledrive chunked upload: 17.2 % uploaded (16777216)
+0098.455 (0) Googledrive chunked upload: 18.3 % uploaded (17825792)
+0099.228 (0) Googledrive chunked upload: 19.4 % uploaded (18874368)
+0099.968 (0) Googledrive chunked upload: 20.5 % uploaded (19922944)
+0100.957 (0) Googledrive chunked upload: 21.6 % uploaded (20971520)
+0101.751 (0) Googledrive chunked upload: 22.6 % uploaded (22020096)
+0102.736 (0) Googledrive chunked upload: 23.7 % uploaded (23068672)
+0103.486 (0) Googledrive chunked upload: 24.8 % uploaded (24117248)
+0104.259 (0) Googledrive chunked upload: 25.9 % uploaded (25165824)
+0105.150 (0) Googledrive chunked upload: 26.9 % uploaded (26214400)
+0105.912 (0) Googledrive chunked upload: 28 % uploaded (27262976)
+0106.890 (0) Googledrive chunked upload: 29.1 % uploaded (28311552)
+0107.661 (0) Googledrive chunked upload: 30.2 % uploaded (29360128)
+0108.663 (0) Googledrive chunked upload: 31.3 % uploaded (30408704)
+0109.722 (0) Googledrive chunked upload: 32.3 % uploaded (31457280)
+0110.514 (0) Googledrive chunked upload: 33.4 % uploaded (32505856)
+0111.291 (0) Googledrive chunked upload: 34.5 % uploaded (33554432)
+0112.138 (0) Googledrive chunked upload: 35.6 % uploaded (34603008)
+0112.912 (0) Googledrive chunked upload: 36.6 % uploaded (35651584)
+0113.785 (0) Googledrive chunked upload: 37.7 % uploaded (36700160)
+0114.659 (0) Googledrive chunked upload: 38.8 % uploaded (37748736)
+0115.443 (0) Googledrive chunked upload: 39.9 % uploaded (38797312)
+0116.174 (0) Googledrive chunked upload: 41 % uploaded (39845888)
+0116.988 (0) Googledrive chunked upload: 42 % uploaded (40894464)
+0117.992 (0) Googledrive chunked upload: 43.1 % uploaded (41943040)
+0118.724 (0) Googledrive chunked upload: 44.2 % uploaded (42991616)
+0119.636 (0) Googledrive chunked upload: 45.3 % uploaded (44040192)
+0120.380 (0) Googledrive chunked upload: 46.3 % uploaded (45088768)
+0121.141 (0) Googledrive chunked upload: 47.4 % uploaded (46137344)
+0121.891 (0) Googledrive chunked upload: 48.5 % uploaded (47185920)
+0122.693 (0) Googledrive chunked upload: 49.6 % uploaded (48234496)
+0123.609 (0) Googledrive chunked upload: 50.7 % uploaded (49283072)
+0124.361 (0) Googledrive chunked upload: 51.7 % uploaded (50331648)
+0125.370 (0) Googledrive chunked upload: 52.8 % uploaded (51380224)
+0126.365 (0) Googledrive chunked upload: 53.9 % uploaded (52428800)
+0127.158 (0) Googledrive chunked upload: 55 % uploaded (53477376)
+0127.888 (0) Googledrive chunked upload: 56 % uploaded (54525952)
+0128.657 (0) Googledrive chunked upload: 57.1 % uploaded (55574528)
+0129.655 (0) Googledrive chunked upload: 58.2 % uploaded (56623104)
+0130.414 (0) Googledrive chunked upload: 59.3 % uploaded (57671680)
+0131.266 (0) Googledrive chunked upload: 60.4 % uploaded (58720256)
+0132.041 (0) Googledrive chunked upload: 61.4 % uploaded (59768832)
+0132.970 (0) Googledrive chunked upload: 62.5 % uploaded (60817408)
+0133.944 (0) Googledrive chunked upload: 63.6 % uploaded (61865984)
+0134.867 (0) Googledrive chunked upload: 64.7 % uploaded (62914560)
+0135.881 (0) Googledrive chunked upload: 65.7 % uploaded (63963136)
+0136.634 (0) Googledrive chunked upload: 66.8 % uploaded (65011712)
+0137.652 (0) Googledrive chunked upload: 67.9 % uploaded (66060288)
+0138.468 (0) Googledrive chunked upload: 69 % uploaded (67108864)
+0139.252 (0) Googledrive chunked upload: 70.1 % uploaded (68157440)
+0140.046 (0) Googledrive chunked upload: 71.1 % uploaded (69206016)
+0141.032 (0) Googledrive chunked upload: 72.2 % uploaded (70254592)
+0141.946 (0) Googledrive chunked upload: 73.3 % uploaded (71303168)
+0142.966 (0) Googledrive chunked upload: 74.4 % uploaded (72351744)
+0143.857 (0) Googledrive chunked upload: 75.4 % uploaded (73400320)
+0144.948 (0) Googledrive chunked upload: 76.5 % uploaded (74448896)
+0145.739 (0) Googledrive chunked upload: 77.6 % uploaded (75497472)
+0146.511 (0) Googledrive chunked upload: 78.7 % uploaded (76546048)
+0147.455 (0) Googledrive chunked upload: 79.8 % uploaded (77594624)
+0148.454 (0) Googledrive chunked upload: 80.8 % uploaded (78643200)
+0149.395 (0) Googledrive chunked upload: 81.9 % uploaded (79691776)
+0150.222 (0) Googledrive chunked upload: 83 % uploaded (80740352)
+0151.028 (0) Googledrive chunked upload: 84.1 % uploaded (81788928)
+0151.770 (0) Googledrive chunked upload: 85.1 % uploaded (82837504)
+0152.524 (0) Googledrive chunked upload: 86.2 % uploaded (83886080)
+0153.292 (0) Googledrive chunked upload: 87.3 % uploaded (84934656)
+0154.292 (0) Googledrive chunked upload: 88.4 % uploaded (85983232)
+0155.170 (0) Googledrive chunked upload: 89.5 % uploaded (87031808)
+0156.043 (0) Googledrive chunked upload: 90.5 % uploaded (88080384)
+0157.020 (0) Googledrive chunked upload: 91.6 % uploaded (89128960)
+0158.019 (0) Googledrive chunked upload: 92.7 % uploaded (90177536)
+0158.856 (0) Googledrive chunked upload: 93.8 % uploaded (91226112)
+0159.709 (0) Googledrive chunked upload: 94.8 % uploaded (92274688)
+0160.554 (0) Googledrive chunked upload: 95.9 % uploaded (93323264)
+0161.316 (0) Googledrive chunked upload: 97 % uploaded (94371840)
+0162.251 (0) Googledrive chunked upload: 98.1 % uploaded (95420416)
+0163.208 (0) Googledrive chunked upload: 99.2 % uploaded (96468992)
+0165.405 (0) Googledrive chunked upload: 100 % uploaded (96468992)
+0165.421 (0) Google Drive: OK: Archive backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip uploaded in 81.95 seconds
+0165.424 (0) Recording as successfully uploaded: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip
+0165.442 (0) Deleting local file: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-plugins.zip: OK
+0166.086 (0) Google Drive: quota usage: used=1104.8 MB, total=10486864.8 MB, available=10485760 MB
+0166.090 (0) Google Drive: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-themes.zip: Attempting to upload to Google Drive (into folder id: 18OXNXDl8YpYGY6hRvbUI1RRfV1aBGynC)
+0168.247 (0) Googledrive chunked upload: 7.7 % uploaded (1048576)
+0169.121 (0) Googledrive chunked upload: 15.5 % uploaded (2097152)
+0170.024 (0) Googledrive chunked upload: 23.2 % uploaded (3145728)
+0170.856 (0) Googledrive chunked upload: 31 % uploaded (4194304)
+0171.740 (0) Googledrive chunked upload: 38.7 % uploaded (5242880)
+0172.488 (0) Googledrive chunked upload: 46.5 % uploaded (6291456)
+0173.478 (0) Googledrive chunked upload: 54.2 % uploaded (7340032)
+0174.275 (0) Googledrive chunked upload: 62 % uploaded (8388608)
+0175.016 (0) Googledrive chunked upload: 69.7 % uploaded (9437184)
+0176.020 (0) Googledrive chunked upload: 77.5 % uploaded (10485760)
+0176.799 (0) Googledrive chunked upload: 85.2 % uploaded (11534336)
+0177.707 (0) Googledrive chunked upload: 93 % uploaded (12582912)
+0179.913 (0) Googledrive chunked upload: 100 % uploaded (12582912)
+0179.927 (0) Google Drive: OK: Archive backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-themes.zip uploaded in 13.83 seconds
+0179.931 (0) Recording as successfully uploaded: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-themes.zip
+0179.940 (0) Deleting local file: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-themes.zip: OK
+0180.432 (0) Google Drive: quota usage: used=1117.7 MB, total=10486877.7 MB, available=10485760 MB
+0180.437 (0) Google Drive: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-uploads.zip: Attempting to upload to Google Drive (into folder id: 18OXNXDl8YpYGY6hRvbUI1RRfV1aBGynC)
+0182.252 (0) Googledrive chunked upload: 0.3 % uploaded (1048576)
+0183.020 (0) Googledrive chunked upload: 0.5 % uploaded (2097152)
+0183.864 (0) Googledrive chunked upload: 0.8 % uploaded (3145728)
+0184.885 (0) Googledrive chunked upload: 1 % uploaded (4194304)
+0185.651 (0) Googledrive chunked upload: 1.3 % uploaded (5242880)
+0186.656 (0) Googledrive chunked upload: 1.5 % uploaded (6291456)
+0187.403 (0) Googledrive chunked upload: 1.8 % uploaded (7340032)
+0188.167 (0) Googledrive chunked upload: 2.1 % uploaded (8388608)
+0189.072 (0) Googledrive chunked upload: 2.3 % uploaded (9437184)
+0189.987 (0) Googledrive chunked upload: 2.6 % uploaded (10485760)
+0191.007 (0) Googledrive chunked upload: 2.8 % uploaded (11534336)
+0192.002 (0) Googledrive chunked upload: 3.1 % uploaded (12582912)
+0192.824 (0) Googledrive chunked upload: 3.3 % uploaded (13631488)
+0193.654 (0) Googledrive chunked upload: 3.6 % uploaded (14680064)
+0194.452 (0) Googledrive chunked upload: 3.9 % uploaded (15728640)
+0195.201 (0) Googledrive chunked upload: 4.1 % uploaded (16777216)
+0196.258 (0) Googledrive chunked upload: 4.4 % uploaded (17825792)
+0196.998 (0) Googledrive chunked upload: 4.6 % uploaded (18874368)
+0197.807 (0) Googledrive chunked upload: 4.9 % uploaded (19922944)
+0198.795 (0) Googledrive chunked upload: 5.1 % uploaded (20971520)
+0199.734 (0) Googledrive chunked upload: 5.4 % uploaded (22020096)
+0200.483 (0) Googledrive chunked upload: 5.6 % uploaded (23068672)
+0201.297 (0) Googledrive chunked upload: 5.9 % uploaded (24117248)
+0202.075 (0) Googledrive chunked upload: 6.2 % uploaded (25165824)
+0203.050 (0) Googledrive chunked upload: 6.4 % uploaded (26214400)
+0203.806 (0) Googledrive chunked upload: 6.7 % uploaded (27262976)
+0204.560 (0) Googledrive chunked upload: 6.9 % uploaded (28311552)
+0205.374 (0) Googledrive chunked upload: 7.2 % uploaded (29360128)
+0206.239 (0) Googledrive chunked upload: 7.4 % uploaded (30408704)
+0207.038 (0) Googledrive chunked upload: 7.7 % uploaded (31457280)
+0207.796 (0) Googledrive chunked upload: 8 % uploaded (32505856)
+0208.547 (0) Googledrive chunked upload: 8.2 % uploaded (33554432)
+0209.294 (0) Googledrive chunked upload: 8.5 % uploaded (34603008)
+0210.114 (0) Googledrive chunked upload: 8.7 % uploaded (35651584)
+0210.860 (0) Googledrive chunked upload: 9 % uploaded (36700160)
+0211.610 (0) Googledrive chunked upload: 9.2 % uploaded (37748736)
+0212.439 (0) Googledrive chunked upload: 9.5 % uploaded (38797312)
+0213.234 (0) Googledrive chunked upload: 9.8 % uploaded (39845888)
+0214.054 (0) Googledrive chunked upload: 10 % uploaded (40894464)
+0214.910 (0) Googledrive chunked upload: 10.3 % uploaded (41943040)
+0215.641 (0) Googledrive chunked upload: 10.5 % uploaded (42991616)
+0216.497 (0) Googledrive chunked upload: 10.8 % uploaded (44040192)
+0217.466 (0) Googledrive chunked upload: 11 % uploaded (45088768)
+0218.211 (0) Googledrive chunked upload: 11.3 % uploaded (46137344)
+0219.068 (0) Googledrive chunked upload: 11.6 % uploaded (47185920)
+0219.875 (0) Googledrive chunked upload: 11.8 % uploaded (48234496)
+0220.658 (0) Googledrive chunked upload: 12.1 % uploaded (49283072)
+0221.421 (0) Googledrive chunked upload: 12.3 % uploaded (50331648)
+0222.190 (0) Googledrive chunked upload: 12.6 % uploaded (51380224)
+0222.978 (0) Googledrive chunked upload: 12.8 % uploaded (52428800)
+0223.971 (0) Googledrive chunked upload: 13.1 % uploaded (53477376)
+0224.739 (0) Googledrive chunked upload: 13.3 % uploaded (54525952)
+0225.491 (0) Googledrive chunked upload: 13.6 % uploaded (55574528)
+0226.313 (0) Googledrive chunked upload: 13.9 % uploaded (56623104)
+0227.056 (0) Googledrive chunked upload: 14.1 % uploaded (57671680)
+0228.035 (0) Googledrive chunked upload: 14.4 % uploaded (58720256)
+0228.969 (0) Googledrive chunked upload: 14.6 % uploaded (59768832)
+0229.726 (0) Googledrive chunked upload: 14.9 % uploaded (60817408)
+0230.674 (0) Googledrive chunked upload: 15.1 % uploaded (61865984)
+0231.444 (0) Googledrive chunked upload: 15.4 % uploaded (62914560)
+0232.357 (0) Googledrive chunked upload: 15.7 % uploaded (63963136)
+0233.240 (0) Googledrive chunked upload: 15.9 % uploaded (65011712)
+0234.154 (0) Googledrive chunked upload: 16.2 % uploaded (66060288)
+0234.966 (0) Googledrive chunked upload: 16.4 % uploaded (67108864)
+0235.948 (0) Googledrive chunked upload: 16.7 % uploaded (68157440)
+0236.750 (0) Googledrive chunked upload: 16.9 % uploaded (69206016)
+0237.500 (0) Googledrive chunked upload: 17.2 % uploaded (70254592)
+0238.387 (0) Googledrive chunked upload: 17.5 % uploaded (71303168)
+0239.169 (0) Googledrive chunked upload: 17.7 % uploaded (72351744)
+0239.927 (0) Googledrive chunked upload: 18 % uploaded (73400320)
+0240.719 (0) Googledrive chunked upload: 18.2 % uploaded (74448896)
+0241.535 (0) Googledrive chunked upload: 18.5 % uploaded (75497472)
+0242.520 (0) Googledrive chunked upload: 18.7 % uploaded (76546048)
+0243.387 (0) Googledrive chunked upload: 19 % uploaded (77594624)
+0244.264 (0) Googledrive chunked upload: 19.3 % uploaded (78643200)
+0245.009 (0) Googledrive chunked upload: 19.5 % uploaded (79691776)
+0245.792 (0) Googledrive chunked upload: 19.8 % uploaded (80740352)
+0246.544 (0) Googledrive chunked upload: 20 % uploaded (81788928)
+0247.517 (0) Googledrive chunked upload: 20.3 % uploaded (82837504)
+0248.248 (0) Googledrive chunked upload: 20.5 % uploaded (83886080)
+0249.189 (0) Googledrive chunked upload: 20.8 % uploaded (84934656)
+0249.934 (0) Googledrive chunked upload: 21 % uploaded (85983232)
+0250.707 (0) Googledrive chunked upload: 21.3 % uploaded (87031808)
+0251.478 (0) Googledrive chunked upload: 21.6 % uploaded (88080384)
+0252.261 (0) Googledrive chunked upload: 21.8 % uploaded (89128960)
+0252.998 (0) Googledrive chunked upload: 22.1 % uploaded (90177536)
+0253.773 (0) Googledrive chunked upload: 22.3 % uploaded (91226112)
+0254.651 (0) Googledrive chunked upload: 22.6 % uploaded (92274688)
+0255.412 (0) The scheduled resumption is within 45 seconds - will reschedule
+0255.421 (0) Rescheduling resumption 1: moving to 345 seconds from now (1588064710)
+0255.433 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 300 + 45 = 345
+0255.437 (0) Googledrive chunked upload: 22.8 % uploaded (93323264)
+0256.364 (0) Googledrive chunked upload: 23.1 % uploaded (94371840)
+0257.104 (0) Googledrive chunked upload: 23.4 % uploaded (95420416)
+0257.908 (0) Googledrive chunked upload: 23.6 % uploaded (96468992)
+0258.683 (0) Googledrive chunked upload: 23.9 % uploaded (97517568)
+0259.496 (0) Googledrive chunked upload: 24.1 % uploaded (98566144)
+0260.351 (0) Googledrive chunked upload: 24.4 % uploaded (99614720)
+0261.200 (0) Googledrive chunked upload: 24.6 % uploaded (100663296)
+0262.064 (0) Googledrive chunked upload: 24.9 % uploaded (101711872)
+0262.820 (0) Googledrive chunked upload: 25.2 % uploaded (102760448)
+0263.599 (0) Googledrive chunked upload: 25.4 % uploaded (103809024)
+0264.349 (0) Googledrive chunked upload: 25.7 % uploaded (104857600)
+0265.242 (0) Googledrive chunked upload: 25.9 % uploaded (105906176)
+0265.995 (0) Googledrive chunked upload: 26.2 % uploaded (106954752)
+0266.819 (0) Googledrive chunked upload: 26.4 % uploaded (108003328)
+0267.614 (0) Googledrive chunked upload: 26.7 % uploaded (109051904)
+0268.384 (0) Googledrive chunked upload: 27 % uploaded (110100480)
+0269.128 (0) Googledrive chunked upload: 27.2 % uploaded (111149056)
+0270.015 (0) Googledrive chunked upload: 27.5 % uploaded (112197632)
+0270.749 (0) Googledrive chunked upload: 27.7 % uploaded (113246208)
+0271.589 (0) Googledrive chunked upload: 28 % uploaded (114294784)
+0272.499 (0) Googledrive chunked upload: 28.2 % uploaded (115343360)
+0273.525 (0) Googledrive chunked upload: 28.5 % uploaded (116391936)
+0274.292 (0) Googledrive chunked upload: 28.7 % uploaded (117440512)
+0275.039 (0) Googledrive chunked upload: 29 % uploaded (118489088)
+0275.947 (0) Googledrive chunked upload: 29.3 % uploaded (119537664)
+0276.760 (0) Googledrive chunked upload: 29.5 % uploaded (120586240)
+0277.756 (0) Googledrive chunked upload: 29.8 % uploaded (121634816)
+0278.494 (0) Googledrive chunked upload: 30 % uploaded (122683392)
+0279.426 (0) Googledrive chunked upload: 30.3 % uploaded (123731968)
+0280.247 (0) Googledrive chunked upload: 30.5 % uploaded (124780544)
+0280.974 (0) Googledrive chunked upload: 30.8 % uploaded (125829120)
+0282.008 (0) Googledrive chunked upload: 31.1 % uploaded (126877696)
+0282.766 (0) Googledrive chunked upload: 31.3 % uploaded (127926272)
+0283.503 (0) Googledrive chunked upload: 31.6 % uploaded (128974848)
+0284.527 (0) Googledrive chunked upload: 31.8 % uploaded (130023424)
+0285.507 (0) Googledrive chunked upload: 32.1 % uploaded (131072000)
+0286.401 (0) Googledrive chunked upload: 32.3 % uploaded (132120576)
+0287.342 (0) Googledrive chunked upload: 32.6 % uploaded (133169152)
+0288.144 (0) Googledrive chunked upload: 32.9 % uploaded (134217728)
+0289.063 (0) Googledrive chunked upload: 33.1 % uploaded (135266304)
+0289.959 (0) Googledrive chunked upload: 33.4 % uploaded (136314880)
+0291.021 (0) Googledrive chunked upload: 33.6 % uploaded (137363456)
+0292.006 (0) Googledrive chunked upload: 33.9 % uploaded (138412032)
+0292.846 (0) Googledrive chunked upload: 34.1 % uploaded (139460608)
+0293.752 (0) Googledrive chunked upload: 34.4 % uploaded (140509184)
+0294.864 (0) Googledrive chunked upload: 34.7 % uploaded (141557760)
+0295.875 (0) Googledrive chunked upload: 34.9 % uploaded (142606336)
+0296.722 (0) Googledrive chunked upload: 35.2 % uploaded (143654912)
+0297.884 (0) Googledrive chunked upload: 35.4 % uploaded (144703488)
+0298.804 (0) Googledrive chunked upload: 35.7 % uploaded (145752064)
+0299.660 (0) Googledrive chunked upload: 35.9 % uploaded (146800640)
+0300.441 (0) Googledrive chunked upload: 36.2 % uploaded (147849216)
+0301.292 (0) Googledrive chunked upload: 36.4 % uploaded (148897792)
+0302.271 (0) Googledrive chunked upload: 36.7 % uploaded (149946368)
+0303.041 (0) Googledrive chunked upload: 37 % uploaded (150994944)
+0304.065 (0) Googledrive chunked upload: 37.2 % uploaded (152043520)
+0304.815 (0) Googledrive chunked upload: 37.5 % uploaded (153092096)
+0305.579 (0) Googledrive chunked upload: 37.7 % uploaded (154140672)
+0306.411 (0) Googledrive chunked upload: 38 % uploaded (155189248)
+0307.182 (0) Googledrive chunked upload: 38.2 % uploaded (156237824)
+0307.938 (0) Googledrive chunked upload: 38.5 % uploaded (157286400)
+0308.697 (0) Googledrive chunked upload: 38.8 % uploaded (158334976)
+0309.476 (0) Googledrive chunked upload: 39 % uploaded (159383552)
+0310.292 (0) Googledrive chunked upload: 39.3 % uploaded (160432128)
+0311.225 (0) Googledrive chunked upload: 39.5 % uploaded (161480704)
+0312.248 (0) Googledrive chunked upload: 39.8 % uploaded (162529280)
+0312.992 (0) Googledrive chunked upload: 40 % uploaded (163577856)
+0313.982 (0) Googledrive chunked upload: 40.3 % uploaded (164626432)
+0314.744 (0) Googledrive chunked upload: 40.6 % uploaded (165675008)
+0315.589 (0) The time we have been running (315.6) is approaching the resumption interval (345) - increasing resumption interval to 346
+0315.599 (0) Googledrive chunked upload: 40.8 % uploaded (166723584)
+0316.350 (0) The time we have been running (316.3) is approaching the resumption interval (346) - increasing resumption interval to 347
+0316.359 (0) Googledrive chunked upload: 41.1 % uploaded (167772160)
+0317.108 (0) The time we have been running (317.1) is approaching the resumption interval (347) - increasing resumption interval to 348
+0317.117 (0) Googledrive chunked upload: 41.3 % uploaded (168820736)
+0318.107 (0) The time we have been running (318.1) is approaching the resumption interval (348) - increasing resumption interval to 349
+0318.116 (0) Googledrive chunked upload: 41.6 % uploaded (169869312)
+0319.111 (0) The time we have been running (319.1) is approaching the resumption interval (349) - increasing resumption interval to 350
+0319.119 (0) Googledrive chunked upload: 41.8 % uploaded (170917888)
+0319.917 (0) Googledrive chunked upload: 42.1 % uploaded (171966464)
+0320.756 (0) The time we have been running (320.7) is approaching the resumption interval (350) - increasing resumption interval to 351
+0320.764 (0) Googledrive chunked upload: 42.4 % uploaded (173015040)
+0321.516 (0) The time we have been running (321.5) is approaching the resumption interval (351) - increasing resumption interval to 352
+0321.525 (0) Googledrive chunked upload: 42.6 % uploaded (174063616)
+0322.292 (0) The time we have been running (322.3) is approaching the resumption interval (352) - increasing resumption interval to 353
+0322.300 (0) Googledrive chunked upload: 42.9 % uploaded (175112192)
+0323.060 (0) The time we have been running (323) is approaching the resumption interval (353) - increasing resumption interval to 354
+0323.069 (0) Googledrive chunked upload: 43.1 % uploaded (176160768)
+0323.935 (0) Googledrive chunked upload: 43.4 % uploaded (177209344)
+0324.684 (0) The time we have been running (324.7) is approaching the resumption interval (354) - increasing resumption interval to 355
+0324.692 (0) Googledrive chunked upload: 43.6 % uploaded (178257920)
+0325.484 (0) The time we have been running (325.5) is approaching the resumption interval (355) - increasing resumption interval to 356
+0325.492 (0) Googledrive chunked upload: 43.9 % uploaded (179306496)
+0326.283 (0) The time we have been running (326.3) is approaching the resumption interval (356) - increasing resumption interval to 357
+0326.291 (0) Googledrive chunked upload: 44.1 % uploaded (180355072)
+0327.333 (0) The time we have been running (327.3) is approaching the resumption interval (357) - increasing resumption interval to 358
+0327.340 (0) Googledrive chunked upload: 44.4 % uploaded (181403648)
+0328.101 (0) The time we have been running (328.1) is approaching the resumption interval (358) - increasing resumption interval to 359
+0328.110 (0) Googledrive chunked upload: 44.7 % uploaded (182452224)
+0328.940 (0) Googledrive chunked upload: 44.9 % uploaded (183500800)
+0329.956 (0) The time we have been running (329.9) is approaching the resumption interval (359) - increasing resumption interval to 360
+0329.964 (0) Googledrive chunked upload: 45.2 % uploaded (184549376)
+0330.712 (0) The time we have been running (330.7) is approaching the resumption interval (360) - increasing resumption interval to 361
+0330.720 (0) Googledrive chunked upload: 45.4 % uploaded (185597952)
+0331.742 (0) The time we have been running (331.7) is approaching the resumption interval (361) - increasing resumption interval to 362
+0331.751 (0) Googledrive chunked upload: 45.7 % uploaded (186646528)
+0332.768 (0) The time we have been running (332.8) is approaching the resumption interval (362) - increasing resumption interval to 363
+0332.777 (0) Googledrive chunked upload: 45.9 % uploaded (187695104)
+0333.566 (0) The time we have been running (333.6) is approaching the resumption interval (363) - increasing resumption interval to 364
+0333.575 (0) Googledrive chunked upload: 46.2 % uploaded (188743680)
+0334.463 (0) The time we have been running (334.4) is approaching the resumption interval (364) - increasing resumption interval to 365
+0334.472 (0) Googledrive chunked upload: 46.5 % uploaded (189792256)
+0335.298 (0) The time we have been running (335.3) is approaching the resumption interval (365) - increasing resumption interval to 366
+0335.312 (0) Googledrive chunked upload: 46.7 % uploaded (190840832)
+0336.071 (0) The time we have been running (336.1) is approaching the resumption interval (366) - increasing resumption interval to 367
+0336.079 (0) Googledrive chunked upload: 47 % uploaded (191889408)
+0336.838 (0) Googledrive chunked upload: 47.2 % uploaded (192937984)
+0337.695 (0) The time we have been running (337.7) is approaching the resumption interval (367) - increasing resumption interval to 368
+0337.703 (0) Googledrive chunked upload: 47.5 % uploaded (193986560)
+0338.451 (0) The time we have been running (338.4) is approaching the resumption interval (368) - increasing resumption interval to 369
+0338.458 (0) Googledrive chunked upload: 47.7 % uploaded (195035136)
+0339.350 (0) The time we have been running (339.3) is approaching the resumption interval (369) - increasing resumption interval to 370
+0339.358 (0) Googledrive chunked upload: 48 % uploaded (196083712)
+0340.125 (0) The time we have been running (340.1) is approaching the resumption interval (370) - increasing resumption interval to 371
+0340.133 (0) Googledrive chunked upload: 48.3 % uploaded (197132288)
+0340.876 (0) Googledrive chunked upload: 48.5 % uploaded (198180864)
+0341.650 (0) The time we have been running (341.6) is approaching the resumption interval (371) - increasing resumption interval to 372
+0341.658 (0) Googledrive chunked upload: 48.8 % uploaded (199229440)
+0342.446 (0) The time we have been running (342.4) is approaching the resumption interval (372) - increasing resumption interval to 373
+0342.454 (0) Googledrive chunked upload: 49 % uploaded (200278016)
+0343.359 (0) The time we have been running (343.3) is approaching the resumption interval (373) - increasing resumption interval to 374
+0343.367 (0) Googledrive chunked upload: 49.3 % uploaded (201326592)
+0344.138 (0) The time we have been running (344.1) is approaching the resumption interval (374) - increasing resumption interval to 375
+0344.146 (0) Googledrive chunked upload: 49.5 % uploaded (202375168)
+0344.894 (0) Googledrive chunked upload: 49.8 % uploaded (203423744)
+0345.824 (0) The time we have been running (345.8) is approaching the resumption interval (375) - increasing resumption interval to 376
+0345.833 (0) Googledrive chunked upload: 50.1 % uploaded (204472320)
+0346.845 (0) The time we have been running (346.8) is approaching the resumption interval (376) - increasing resumption interval to 377
+0346.854 (0) Googledrive chunked upload: 50.3 % uploaded (205520896)
+0347.611 (0) The time we have been running (347.6) is approaching the resumption interval (377) - increasing resumption interval to 378
+0347.619 (0) Googledrive chunked upload: 50.6 % uploaded (206569472)
+0348.371 (0) The time we have been running (348.4) is approaching the resumption interval (378) - increasing resumption interval to 379
+0348.380 (0) Googledrive chunked upload: 50.8 % uploaded (207618048)
+0349.182 (0) The time we have been running (349.2) is approaching the resumption interval (379) - increasing resumption interval to 380
+0349.191 (0) Googledrive chunked upload: 51.1 % uploaded (208666624)
+0349.955 (0) Googledrive chunked upload: 51.3 % uploaded (209715200)
+0350.750 (0) The time we have been running (350.7) is approaching the resumption interval (380) - increasing resumption interval to 381
+0350.759 (0) Googledrive chunked upload: 51.6 % uploaded (210763776)
+0351.567 (0) The time we have been running (351.6) is approaching the resumption interval (381) - increasing resumption interval to 382
+0351.576 (0) Googledrive chunked upload: 51.8 % uploaded (211812352)
+0352.449 (0) The time we have been running (352.4) is approaching the resumption interval (382) - increasing resumption interval to 383
+0352.456 (0) Googledrive chunked upload: 52.1 % uploaded (212860928)
+0353.452 (0) The time we have been running (353.4) is approaching the resumption interval (383) - increasing resumption interval to 384
+0353.460 (0) Googledrive chunked upload: 52.4 % uploaded (213909504)
+0354.396 (0) The time we have been running (354.4) is approaching the resumption interval (384) - increasing resumption interval to 385
+0354.406 (0) Googledrive chunked upload: 52.6 % uploaded (214958080)
+0355.196 (0) The time we have been running (355.2) is approaching the resumption interval (385) - increasing resumption interval to 386
+0355.204 (0) Googledrive chunked upload: 52.9 % uploaded (216006656)
+0355.948 (0) Googledrive chunked upload: 53.1 % uploaded (217055232)
+0356.707 (0) The time we have been running (356.7) is approaching the resumption interval (386) - increasing resumption interval to 387
+0356.715 (0) Googledrive chunked upload: 53.4 % uploaded (218103808)
+0357.473 (0) The time we have been running (357.5) is approaching the resumption interval (387) - increasing resumption interval to 388
+0357.482 (0) Googledrive chunked upload: 53.6 % uploaded (219152384)
+0358.395 (0) The time we have been running (358.4) is approaching the resumption interval (388) - increasing resumption interval to 389
+0358.403 (0) Googledrive chunked upload: 53.9 % uploaded (220200960)
+0359.384 (0) The time we have been running (359.4) is approaching the resumption interval (389) - increasing resumption interval to 390
+0359.392 (0) Googledrive chunked upload: 54.2 % uploaded (221249536)
+0360.250 (0) The time we have been running (360.2) is approaching the resumption interval (390) - increasing resumption interval to 391
+0360.258 (0) Googledrive chunked upload: 54.4 % uploaded (222298112)
+0361.110 (0) The time we have been running (361.1) is approaching the resumption interval (391) - increasing resumption interval to 392
+0361.122 (0) Googledrive chunked upload: 54.7 % uploaded (223346688)
+0361.931 (0) Googledrive chunked upload: 54.9 % uploaded (224395264)
+0362.705 (0) The time we have been running (362.7) is approaching the resumption interval (392) - increasing resumption interval to 393
+0362.714 (0) Googledrive chunked upload: 55.2 % uploaded (225443840)
+0363.570 (0) The time we have been running (363.6) is approaching the resumption interval (393) - increasing resumption interval to 394
+0363.578 (0) Googledrive chunked upload: 55.4 % uploaded (226492416)
+0364.521 (0) The time we have been running (364.5) is approaching the resumption interval (394) - increasing resumption interval to 395
+0364.530 (0) Googledrive chunked upload: 55.7 % uploaded (227540992)
+0365.380 (0) The time we have been running (365.4) is approaching the resumption interval (395) - increasing resumption interval to 396
+0365.387 (0) Googledrive chunked upload: 56 % uploaded (228589568)
+0366.172 (0) The time we have been running (366.2) is approaching the resumption interval (396) - increasing resumption interval to 397
+0366.179 (0) Googledrive chunked upload: 56.2 % uploaded (229638144)
+0366.988 (0) Googledrive chunked upload: 56.5 % uploaded (230686720)
+0367.986 (0) The time we have been running (368) is approaching the resumption interval (397) - increasing resumption interval to 398
+0367.994 (0) Googledrive chunked upload: 56.7 % uploaded (231735296)
+0368.823 (0) The time we have been running (368.8) is approaching the resumption interval (398) - increasing resumption interval to 399
+0368.836 (0) Googledrive chunked upload: 57 % uploaded (232783872)
+0369.576 (0) The time we have been running (369.6) is approaching the resumption interval (399) - increasing resumption interval to 400
+0369.585 (0) Googledrive chunked upload: 57.2 % uploaded (233832448)
+0370.478 (0) The time we have been running (370.5) is approaching the resumption interval (400) - increasing resumption interval to 401
+0370.486 (0) Googledrive chunked upload: 57.5 % uploaded (234881024)
+0371.506 (0) The time we have been running (371.5) is approaching the resumption interval (401) - increasing resumption interval to 402
+0371.514 (0) Googledrive chunked upload: 57.8 % uploaded (235929600)
+0372.291 (0) The time we have been running (372.3) is approaching the resumption interval (402) - increasing resumption interval to 403
+0372.299 (0) Googledrive chunked upload: 58 % uploaded (236978176)
+0373.065 (0) The time we have been running (373.1) is approaching the resumption interval (403) - increasing resumption interval to 404
+0373.074 (0) Googledrive chunked upload: 58.3 % uploaded (238026752)
+0374.128 (0) The time we have been running (374.1) is approaching the resumption interval (404) - increasing resumption interval to 405
+0374.136 (0) Googledrive chunked upload: 58.5 % uploaded (239075328)
+0374.988 (0) Googledrive chunked upload: 58.8 % uploaded (240123904)
+0375.904 (0) The time we have been running (375.9) is approaching the resumption interval (405) - increasing resumption interval to 406
+0375.916 (0) Googledrive chunked upload: 59 % uploaded (241172480)
+0376.678 (0) The time we have been running (376.7) is approaching the resumption interval (406) - increasing resumption interval to 407
+0376.687 (0) Googledrive chunked upload: 59.3 % uploaded (242221056)
+0377.577 (0) The time we have been running (377.6) is approaching the resumption interval (407) - increasing resumption interval to 408
+0377.585 (0) Googledrive chunked upload: 59.5 % uploaded (243269632)
+0378.360 (0) The time we have been running (378.3) is approaching the resumption interval (408) - increasing resumption interval to 409
+0378.369 (0) Googledrive chunked upload: 59.8 % uploaded (244318208)
+0379.253 (0) The time we have been running (379.2) is approaching the resumption interval (409) - increasing resumption interval to 410
+0379.261 (0) Googledrive chunked upload: 60.1 % uploaded (245366784)
+0380.118 (0) The time we have been running (380.1) is approaching the resumption interval (410) - increasing resumption interval to 411
+0380.126 (0) Googledrive chunked upload: 60.3 % uploaded (246415360)
+0381.064 (0) The time we have been running (381.1) is approaching the resumption interval (411) - increasing resumption interval to 412
+0381.072 (0) Googledrive chunked upload: 60.6 % uploaded (247463936)
+0381.864 (0) Googledrive chunked upload: 60.8 % uploaded (248512512)
+0382.648 (0) The time we have been running (382.6) is approaching the resumption interval (412) - increasing resumption interval to 413
+0382.657 (0) Googledrive chunked upload: 61.1 % uploaded (249561088)
+0383.492 (0) The time we have been running (383.5) is approaching the resumption interval (413) - increasing resumption interval to 414
+0383.501 (0) Googledrive chunked upload: 61.3 % uploaded (250609664)
+0384.292 (0) The time we have been running (384.3) is approaching the resumption interval (414) - increasing resumption interval to 415
+0384.301 (0) Googledrive chunked upload: 61.6 % uploaded (251658240)
+0385.062 (0) The time we have been running (385) is approaching the resumption interval (415) - increasing resumption interval to 416
+0385.071 (0) Googledrive chunked upload: 61.9 % uploaded (252706816)
+0385.911 (0) Googledrive chunked upload: 62.1 % uploaded (253755392)
+0386.684 (0) The time we have been running (386.7) is approaching the resumption interval (416) - increasing resumption interval to 417
+0386.694 (0) Googledrive chunked upload: 62.4 % uploaded (254803968)
+0387.719 (0) The time we have been running (387.7) is approaching the resumption interval (417) - increasing resumption interval to 418
+0387.727 (0) Googledrive chunked upload: 62.6 % uploaded (255852544)
+0388.500 (0) The time we have been running (388.5) is approaching the resumption interval (418) - increasing resumption interval to 419
+0388.508 (0) Googledrive chunked upload: 62.9 % uploaded (256901120)
+0389.264 (0) The time we have been running (389.3) is approaching the resumption interval (419) - increasing resumption interval to 420
+0389.282 (0) Googledrive chunked upload: 63.1 % uploaded (257949696)
+0390.088 (0) The time we have been running (390.1) is approaching the resumption interval (420) - increasing resumption interval to 421
+0390.097 (0) Googledrive chunked upload: 63.4 % uploaded (258998272)
+0391.059 (0) The time we have been running (391) is approaching the resumption interval (421) - increasing resumption interval to 422
+0391.067 (0) Googledrive chunked upload: 63.7 % uploaded (260046848)
+0391.837 (0) Googledrive chunked upload: 63.9 % uploaded (261095424)
+0392.844 (0) The time we have been running (392.8) is approaching the resumption interval (422) - increasing resumption interval to 423
+0392.851 (0) Googledrive chunked upload: 64.2 % uploaded (262144000)
+0393.628 (0) The time we have been running (393.6) is approaching the resumption interval (423) - increasing resumption interval to 424
+0393.637 (0) Googledrive chunked upload: 64.4 % uploaded (263192576)
+0394.456 (0) The time we have been running (394.4) is approaching the resumption interval (424) - increasing resumption interval to 425
+0394.464 (0) Googledrive chunked upload: 64.7 % uploaded (264241152)
+0395.246 (0) The time we have been running (395.2) is approaching the resumption interval (425) - increasing resumption interval to 426
+0395.254 (0) Googledrive chunked upload: 64.9 % uploaded (265289728)
+0395.989 (0) Googledrive chunked upload: 65.2 % uploaded (266338304)
+0396.912 (0) The time we have been running (396.9) is approaching the resumption interval (426) - increasing resumption interval to 427
+0396.921 (0) Googledrive chunked upload: 65.5 % uploaded (267386880)
+0397.697 (0) The time we have been running (397.7) is approaching the resumption interval (427) - increasing resumption interval to 428
+0397.706 (0) Googledrive chunked upload: 65.7 % uploaded (268435456)
+0398.690 (0) The time we have been running (398.7) is approaching the resumption interval (428) - increasing resumption interval to 429
+0398.699 (0) Googledrive chunked upload: 66 % uploaded (269484032)
+0399.755 (0) The time we have been running (399.7) is approaching the resumption interval (429) - increasing resumption interval to 430
+0399.764 (0) Googledrive chunked upload: 66.2 % uploaded (270532608)
+0400.505 (0) The time we have been running (400.5) is approaching the resumption interval (430) - increasing resumption interval to 431
+0400.514 (0) Googledrive chunked upload: 66.5 % uploaded (271581184)
+0401.363 (0) The time we have been running (401.3) is approaching the resumption interval (431) - increasing resumption interval to 432
+0401.371 (0) Googledrive chunked upload: 66.7 % uploaded (272629760)
+0402.255 (0) The time we have been running (402.2) is approaching the resumption interval (432) - increasing resumption interval to 433
+0402.263 (0) Googledrive chunked upload: 67 % uploaded (273678336)
+0403.152 (0) The time we have been running (403.1) is approaching the resumption interval (433) - increasing resumption interval to 434
+0403.160 (0) Googledrive chunked upload: 67.2 % uploaded (274726912)
+0403.913 (0) Googledrive chunked upload: 67.5 % uploaded (275775488)
+0404.850 (0) The time we have been running (404.8) is approaching the resumption interval (434) - increasing resumption interval to 435
+0404.859 (0) Googledrive chunked upload: 67.8 % uploaded (276824064)
+0405.600 (0) The time we have been running (405.6) is approaching the resumption interval (435) - increasing resumption interval to 436
+0405.609 (0) Googledrive chunked upload: 68 % uploaded (277872640)
+0406.389 (0) The time we have been running (406.4) is approaching the resumption interval (436) - increasing resumption interval to 437
+0406.397 (0) Googledrive chunked upload: 68.3 % uploaded (278921216)
+0407.241 (0) The time we have been running (407.2) is approaching the resumption interval (437) - increasing resumption interval to 438
+0407.251 (0) Googledrive chunked upload: 68.5 % uploaded (279969792)
+0408.092 (0) The time we have been running (408.1) is approaching the resumption interval (438) - increasing resumption interval to 439
+0408.103 (0) Googledrive chunked upload: 68.8 % uploaded (281018368)
+0408.844 (0) Googledrive chunked upload: 69 % uploaded (282066944)
+0409.844 (0) The time we have been running (409.8) is approaching the resumption interval (439) - increasing resumption interval to 440
+0409.852 (0) Googledrive chunked upload: 69.3 % uploaded (283115520)
+0410.867 (0) The time we have been running (410.9) is approaching the resumption interval (440) - increasing resumption interval to 441
+0410.875 (0) Googledrive chunked upload: 69.6 % uploaded (284164096)
+0411.643 (0) The time we have been running (411.6) is approaching the resumption interval (441) - increasing resumption interval to 442
+0411.652 (0) Googledrive chunked upload: 69.8 % uploaded (285212672)
+0412.654 (0) The time we have been running (412.6) is approaching the resumption interval (442) - increasing resumption interval to 443
+0412.663 (0) Googledrive chunked upload: 70.1 % uploaded (286261248)
+0413.421 (0) The time we have been running (413.4) is approaching the resumption interval (443) - increasing resumption interval to 444
+0413.429 (0) Googledrive chunked upload: 70.3 % uploaded (287309824)
+0414.301 (0) The time we have been running (414.3) is approaching the resumption interval (444) - increasing resumption interval to 445
+0414.312 (0) Googledrive chunked upload: 70.6 % uploaded (288358400)
+0415.067 (0) The time we have been running (415.1) is approaching the resumption interval (445) - increasing resumption interval to 446
+0415.076 (0) Googledrive chunked upload: 70.8 % uploaded (289406976)
+0415.820 (0) Googledrive chunked upload: 71.1 % uploaded (290455552)
+0416.711 (0) The time we have been running (416.7) is approaching the resumption interval (446) - increasing resumption interval to 447
+0416.721 (0) Googledrive chunked upload: 71.4 % uploaded (291504128)
+0417.495 (0) The time we have been running (417.5) is approaching the resumption interval (447) - increasing resumption interval to 448
+0417.507 (0) Googledrive chunked upload: 71.6 % uploaded (292552704)
+0418.445 (0) The time we have been running (418.4) is approaching the resumption interval (448) - increasing resumption interval to 449
+0418.454 (0) Googledrive chunked upload: 71.9 % uploaded (293601280)
+0419.241 (0) The time we have been running (419.2) is approaching the resumption interval (449) - increasing resumption interval to 450
+0419.249 (0) Googledrive chunked upload: 72.1 % uploaded (294649856)
+0420.192 (0) The time we have been running (420.2) is approaching the resumption interval (450) - increasing resumption interval to 451
+0420.202 (0) Googledrive chunked upload: 72.4 % uploaded (295698432)
+0420.961 (0) Googledrive chunked upload: 72.6 % uploaded (296747008)
+0422.008 (0) The time we have been running (422) is approaching the resumption interval (451) - increasing resumption interval to 452
+0422.016 (0) Googledrive chunked upload: 72.9 % uploaded (297795584)
+0422.846 (0) The time we have been running (422.8) is approaching the resumption interval (452) - increasing resumption interval to 453
+0422.855 (0) Googledrive chunked upload: 73.2 % uploaded (298844160)
+0423.878 (0) The time we have been running (423.9) is approaching the resumption interval (453) - increasing resumption interval to 454
+0423.887 (0) Googledrive chunked upload: 73.4 % uploaded (299892736)
+0424.859 (0) The time we have been running (424.8) is approaching the resumption interval (454) - increasing resumption interval to 455
+0424.867 (0) Googledrive chunked upload: 73.7 % uploaded (300941312)
+0425.688 (0) The time we have been running (425.7) is approaching the resumption interval (455) - increasing resumption interval to 456
+0425.696 (0) Googledrive chunked upload: 73.9 % uploaded (301989888)
+0426.688 (0) The time we have been running (426.7) is approaching the resumption interval (456) - increasing resumption interval to 457
+0426.696 (0) Googledrive chunked upload: 74.2 % uploaded (303038464)
+0427.635 (0) The time we have been running (427.6) is approaching the resumption interval (457) - increasing resumption interval to 458
+0427.643 (0) Googledrive chunked upload: 74.4 % uploaded (304087040)
+0428.657 (0) The time we have been running (428.6) is approaching the resumption interval (458) - increasing resumption interval to 459
+0428.665 (0) Googledrive chunked upload: 74.7 % uploaded (305135616)
+0429.447 (0) The time we have been running (429.4) is approaching the resumption interval (459) - increasing resumption interval to 460
+0429.455 (0) Googledrive chunked upload: 74.9 % uploaded (306184192)
+0430.376 (0) The time we have been running (430.4) is approaching the resumption interval (460) - increasing resumption interval to 461
+0430.384 (0) Googledrive chunked upload: 75.2 % uploaded (307232768)
+0431.337 (0) The time we have been running (431.3) is approaching the resumption interval (461) - increasing resumption interval to 462
+0431.346 (0) Googledrive chunked upload: 75.5 % uploaded (308281344)
+0432.391 (0) The time we have been running (432.4) is approaching the resumption interval (462) - increasing resumption interval to 463
+0432.399 (0) Googledrive chunked upload: 75.7 % uploaded (309329920)
+0433.401 (0) The time we have been running (433.4) is approaching the resumption interval (463) - increasing resumption interval to 464
+0433.409 (0) Googledrive chunked upload: 76 % uploaded (310378496)
+0434.181 (0) The time we have been running (434.2) is approaching the resumption interval (464) - increasing resumption interval to 465
+0434.190 (0) Googledrive chunked upload: 76.2 % uploaded (311427072)
+0435.124 (0) The time we have been running (435.1) is approaching the resumption interval (465) - increasing resumption interval to 466
+0435.133 (0) Googledrive chunked upload: 76.5 % uploaded (312475648)
+0436.000 (0) Googledrive chunked upload: 76.7 % uploaded (313524224)
+0436.787 (0) The time we have been running (436.8) is approaching the resumption interval (466) - increasing resumption interval to 467
+0436.796 (0) Googledrive chunked upload: 77 % uploaded (314572800)
+0437.786 (0) The time we have been running (437.8) is approaching the resumption interval (467) - increasing resumption interval to 468
+0437.795 (0) Googledrive chunked upload: 77.3 % uploaded (315621376)
+0438.623 (0) The time we have been running (438.6) is approaching the resumption interval (468) - increasing resumption interval to 469
+0438.632 (0) Googledrive chunked upload: 77.5 % uploaded (316669952)
+0439.523 (0) The time we have been running (439.5) is approaching the resumption interval (469) - increasing resumption interval to 470
+0439.534 (0) Googledrive chunked upload: 77.8 % uploaded (317718528)
+0440.430 (0) The time we have been running (440.4) is approaching the resumption interval (470) - increasing resumption interval to 471
+0440.438 (0) Googledrive chunked upload: 78 % uploaded (318767104)
+0441.301 (0) The time we have been running (441.3) is approaching the resumption interval (471) - increasing resumption interval to 472
+0441.308 (0) Googledrive chunked upload: 78.3 % uploaded (319815680)
+0442.314 (0) The time we have been running (442.3) is approaching the resumption interval (472) - increasing resumption interval to 473
+0442.323 (0) Googledrive chunked upload: 78.5 % uploaded (320864256)
+0443.340 (0) The time we have been running (443.3) is approaching the resumption interval (473) - increasing resumption interval to 474
+0443.348 (0) Googledrive chunked upload: 78.8 % uploaded (321912832)
+0444.318 (0) The time we have been running (444.3) is approaching the resumption interval (474) - increasing resumption interval to 475
+0444.326 (0) Googledrive chunked upload: 79.1 % uploaded (322961408)
+0445.101 (0) The time we have been running (445.1) is approaching the resumption interval (475) - increasing resumption interval to 476
+0445.108 (0) Googledrive chunked upload: 79.3 % uploaded (324009984)
+0445.892 (0) Googledrive chunked upload: 79.6 % uploaded (325058560)
+0446.813 (0) The time we have been running (446.8) is approaching the resumption interval (476) - increasing resumption interval to 477
+0446.821 (0) Googledrive chunked upload: 79.8 % uploaded (326107136)
+0447.567 (0) The time we have been running (447.6) is approaching the resumption interval (477) - increasing resumption interval to 478
+0447.575 (0) Googledrive chunked upload: 80.1 % uploaded (327155712)
+0448.590 (0) The time we have been running (448.6) is approaching the resumption interval (478) - increasing resumption interval to 479
+0448.598 (0) Googledrive chunked upload: 80.3 % uploaded (328204288)
+0449.528 (0) The time we have been running (449.5) is approaching the resumption interval (479) - increasing resumption interval to 480
+0449.536 (0) Googledrive chunked upload: 80.6 % uploaded (329252864)
+0450.287 (0) The time we have been running (450.3) is approaching the resumption interval (480) - increasing resumption interval to 481
+0450.297 (0) Googledrive chunked upload: 80.9 % uploaded (330301440)
+0451.279 (0) The time we have been running (451.3) is approaching the resumption interval (481) - increasing resumption interval to 482
+0451.304 (0) Googledrive chunked upload: 81.1 % uploaded (331350016)
+0452.072 (0) The time we have been running (452.1) is approaching the resumption interval (482) - increasing resumption interval to 483
+0452.080 (0) Googledrive chunked upload: 81.4 % uploaded (332398592)
+0452.865 (0) Googledrive chunked upload: 81.6 % uploaded (333447168)
+0453.688 (0) The time we have been running (453.7) is approaching the resumption interval (483) - increasing resumption interval to 484
+0453.696 (0) Googledrive chunked upload: 81.9 % uploaded (334495744)
+0454.486 (0) The time we have been running (454.5) is approaching the resumption interval (484) - increasing resumption interval to 485
+0454.495 (0) Googledrive chunked upload: 82.1 % uploaded (335544320)
+0455.338 (0) The time we have been running (455.3) is approaching the resumption interval (485) - increasing resumption interval to 486
+0455.350 (0) Googledrive chunked upload: 82.4 % uploaded (336592896)
+0456.208 (0) The time we have been running (456.2) is approaching the resumption interval (486) - increasing resumption interval to 487
+0456.216 (0) Googledrive chunked upload: 82.6 % uploaded (337641472)
+0457.155 (0) The time we have been running (457.1) is approaching the resumption interval (487) - increasing resumption interval to 488
+0457.163 (0) Googledrive chunked upload: 82.9 % uploaded (338690048)
+0458.221 (0) The time we have been running (458.2) is approaching the resumption interval (488) - increasing resumption interval to 489
+0458.230 (0) Googledrive chunked upload: 83.2 % uploaded (339738624)
+0459.240 (0) The time we have been running (459.2) is approaching the resumption interval (489) - increasing resumption interval to 490
+0459.249 (0) Googledrive chunked upload: 83.4 % uploaded (340787200)
+0460.038 (0) The time we have been running (460) is approaching the resumption interval (490) - increasing resumption interval to 491
+0460.049 (0) Googledrive chunked upload: 83.7 % uploaded (341835776)
+0460.907 (0) Googledrive chunked upload: 83.9 % uploaded (342884352)
+0461.794 (0) The time we have been running (461.8) is approaching the resumption interval (491) - increasing resumption interval to 492
+0461.802 (0) Googledrive chunked upload: 84.2 % uploaded (343932928)
+0462.701 (0) The time we have been running (462.7) is approaching the resumption interval (492) - increasing resumption interval to 493
+0462.709 (0) Googledrive chunked upload: 84.4 % uploaded (344981504)
+0463.575 (0) The time we have been running (463.6) is approaching the resumption interval (493) - increasing resumption interval to 494
+0463.583 (0) Googledrive chunked upload: 84.7 % uploaded (346030080)
+0464.514 (0) The time we have been running (464.5) is approaching the resumption interval (494) - increasing resumption interval to 495
+0464.523 (0) Googledrive chunked upload: 85 % uploaded (347078656)
+0465.505 (0) The time we have been running (465.5) is approaching the resumption interval (495) - increasing resumption interval to 496
+0465.513 (0) Googledrive chunked upload: 85.2 % uploaded (348127232)
+0466.524 (0) The time we have been running (466.5) is approaching the resumption interval (496) - increasing resumption interval to 497
+0466.532 (0) Googledrive chunked upload: 85.5 % uploaded (349175808)
+0467.456 (0) The time we have been running (467.4) is approaching the resumption interval (497) - increasing resumption interval to 498
+0467.464 (0) Googledrive chunked upload: 85.7 % uploaded (350224384)
+0468.452 (0) The time we have been running (468.4) is approaching the resumption interval (498) - increasing resumption interval to 499
+0468.461 (0) Googledrive chunked upload: 86 % uploaded (351272960)
+0469.310 (0) The time we have been running (469.3) is approaching the resumption interval (499) - increasing resumption interval to 500
+0469.318 (0) Googledrive chunked upload: 86.2 % uploaded (352321536)
+0470.136 (0) The time we have been running (470.1) is approaching the resumption interval (500) - increasing resumption interval to 501
+0470.147 (0) Googledrive chunked upload: 86.5 % uploaded (353370112)
+0470.920 (0) Googledrive chunked upload: 86.8 % uploaded (354418688)
+0471.738 (0) The time we have been running (471.7) is approaching the resumption interval (501) - increasing resumption interval to 502
+0471.746 (0) Googledrive chunked upload: 87 % uploaded (355467264)
+0472.495 (0) The time we have been running (472.5) is approaching the resumption interval (502) - increasing resumption interval to 503
+0472.504 (0) Googledrive chunked upload: 87.3 % uploaded (356515840)
+0473.511 (0) The time we have been running (473.5) is approaching the resumption interval (503) - increasing resumption interval to 504
+0473.520 (0) Googledrive chunked upload: 87.5 % uploaded (357564416)
+0474.284 (0) The time we have been running (474.3) is approaching the resumption interval (504) - increasing resumption interval to 505
+0474.298 (0) Googledrive chunked upload: 87.8 % uploaded (358612992)
+0475.066 (0) The time we have been running (475.1) is approaching the resumption interval (505) - increasing resumption interval to 506
+0475.074 (0) Googledrive chunked upload: 88 % uploaded (359661568)
+0476.024 (0) The time we have been running (476) is approaching the resumption interval (506) - increasing resumption interval to 507
+0476.032 (0) Googledrive chunked upload: 88.3 % uploaded (360710144)
+0476.933 (0) Googledrive chunked upload: 88.6 % uploaded (361758720)
+0477.911 (0) The time we have been running (477.9) is approaching the resumption interval (507) - increasing resumption interval to 508
+0477.919 (0) Googledrive chunked upload: 88.8 % uploaded (362807296)
+0478.940 (0) The time we have been running (478.9) is approaching the resumption interval (508) - increasing resumption interval to 509
+0478.948 (0) Googledrive chunked upload: 89.1 % uploaded (363855872)
+0479.716 (0) The time we have been running (479.7) is approaching the resumption interval (509) - increasing resumption interval to 510
+0479.725 (0) Googledrive chunked upload: 89.3 % uploaded (364904448)
+0480.478 (0) The time we have been running (480.5) is approaching the resumption interval (510) - increasing resumption interval to 511
+0480.486 (0) Googledrive chunked upload: 89.6 % uploaded (365953024)
+0481.257 (0) The time we have been running (481.2) is approaching the resumption interval (511) - increasing resumption interval to 512
+0481.265 (0) Googledrive chunked upload: 89.8 % uploaded (367001600)
+0482.157 (0) The time we have been running (482.1) is approaching the resumption interval (512) - increasing resumption interval to 513
+0482.166 (0) Googledrive chunked upload: 90.1 % uploaded (368050176)
+0483.105 (0) The time we have been running (483.1) is approaching the resumption interval (513) - increasing resumption interval to 514
+0483.114 (0) Googledrive chunked upload: 90.3 % uploaded (369098752)
+0484.023 (0) The time we have been running (484) is approaching the resumption interval (514) - increasing resumption interval to 515
+0484.031 (0) Googledrive chunked upload: 90.6 % uploaded (370147328)
+0485.022 (0) The time we have been running (485) is approaching the resumption interval (515) - increasing resumption interval to 516
+0485.030 (0) Googledrive chunked upload: 90.9 % uploaded (371195904)
+0485.873 (0) Googledrive chunked upload: 91.1 % uploaded (372244480)
+0486.614 (0) The time we have been running (486.6) is approaching the resumption interval (516) - increasing resumption interval to 517
+0486.622 (0) Googledrive chunked upload: 91.4 % uploaded (373293056)
+0487.403 (0) The time we have been running (487.4) is approaching the resumption interval (517) - increasing resumption interval to 518
+0487.411 (0) Googledrive chunked upload: 91.6 % uploaded (374341632)
+0488.342 (0) The time we have been running (488.3) is approaching the resumption interval (518) - increasing resumption interval to 519
+0488.350 (0) Googledrive chunked upload: 91.9 % uploaded (375390208)
+0489.158 (0) The time we have been running (489.1) is approaching the resumption interval (519) - increasing resumption interval to 520
+0489.166 (0) Googledrive chunked upload: 92.1 % uploaded (376438784)
+0490.206 (0) The time we have been running (490.2) is approaching the resumption interval (520) - increasing resumption interval to 521
+0490.214 (0) Googledrive chunked upload: 92.4 % uploaded (377487360)
+0491.213 (0) The time we have been running (491.2) is approaching the resumption interval (521) - increasing resumption interval to 522
+0491.221 (0) Googledrive chunked upload: 92.7 % uploaded (378535936)
+0492.164 (0) The time we have been running (492.2) is approaching the resumption interval (522) - increasing resumption interval to 523
+0492.173 (0) Googledrive chunked upload: 92.9 % uploaded (379584512)
+0492.944 (0) Googledrive chunked upload: 93.2 % uploaded (380633088)
+0493.699 (0) The time we have been running (493.7) is approaching the resumption interval (523) - increasing resumption interval to 524
+0493.708 (0) Googledrive chunked upload: 93.4 % uploaded (381681664)
+0494.667 (0) The time we have been running (494.7) is approaching the resumption interval (524) - increasing resumption interval to 525
+0494.674 (0) Googledrive chunked upload: 93.7 % uploaded (382730240)
+0495.468 (0) The time we have been running (495.5) is approaching the resumption interval (525) - increasing resumption interval to 526
+0495.476 (0) Googledrive chunked upload: 93.9 % uploaded (383778816)
+0496.242 (0) The time we have been running (496.2) is approaching the resumption interval (526) - increasing resumption interval to 527
+0496.250 (0) Googledrive chunked upload: 94.2 % uploaded (384827392)
+0497.110 (0) The time we have been running (497.1) is approaching the resumption interval (527) - increasing resumption interval to 528
+0497.118 (0) Googledrive chunked upload: 94.5 % uploaded (385875968)
+0497.882 (0) Googledrive chunked upload: 94.7 % uploaded (386924544)
+0498.772 (0) The time we have been running (498.8) is approaching the resumption interval (528) - increasing resumption interval to 529
+0498.780 (0) Googledrive chunked upload: 95 % uploaded (387973120)
+0499.798 (0) The time we have been running (499.8) is approaching the resumption interval (529) - increasing resumption interval to 530
+0499.809 (0) Googledrive chunked upload: 95.2 % uploaded (389021696)
+0500.822 (0) The time we have been running (500.8) is approaching the resumption interval (530) - increasing resumption interval to 531
+0500.830 (0) Googledrive chunked upload: 95.5 % uploaded (390070272)
+0501.607 (0) The time we have been running (501.6) is approaching the resumption interval (531) - increasing resumption interval to 532
+0501.615 (0) Googledrive chunked upload: 95.7 % uploaded (391118848)
+0502.362 (0) The time we have been running (502.3) is approaching the resumption interval (532) - increasing resumption interval to 533
+0502.370 (0) Googledrive chunked upload: 96 % uploaded (392167424)
+0503.134 (0) The time we have been running (503.1) is approaching the resumption interval (533) - increasing resumption interval to 534
+0503.143 (0) Googledrive chunked upload: 96.3 % uploaded (393216000)
+0503.991 (0) Googledrive chunked upload: 96.5 % uploaded (394264576)
+0504.816 (0) The time we have been running (504.8) is approaching the resumption interval (534) - increasing resumption interval to 535
+0504.825 (0) Googledrive chunked upload: 96.8 % uploaded (395313152)
+0505.807 (0) The time we have been running (505.8) is approaching the resumption interval (535) - increasing resumption interval to 536
+0505.815 (0) Googledrive chunked upload: 97 % uploaded (396361728)
+0506.738 (0) The time we have been running (506.7) is approaching the resumption interval (536) - increasing resumption interval to 537
+0506.747 (0) Googledrive chunked upload: 97.3 % uploaded (397410304)
+0507.513 (0) The time we have been running (507.5) is approaching the resumption interval (537) - increasing resumption interval to 538
+0507.522 (0) Googledrive chunked upload: 97.5 % uploaded (398458880)
+0508.312 (0) The time we have been running (508.3) is approaching the resumption interval (538) - increasing resumption interval to 539
+0508.321 (0) Googledrive chunked upload: 97.8 % uploaded (399507456)
+0509.288 (0) The time we have been running (509.3) is approaching the resumption interval (539) - increasing resumption interval to 540
+0509.312 (0) Googledrive chunked upload: 98 % uploaded (400556032)
+0510.095 (0) The time we have been running (510.1) is approaching the resumption interval (540) - increasing resumption interval to 541
+0510.104 (0) Googledrive chunked upload: 98.3 % uploaded (401604608)
+0510.860 (0) Googledrive chunked upload: 98.6 % uploaded (402653184)
+0511.889 (0) The time we have been running (511.9) is approaching the resumption interval (541) - increasing resumption interval to 542
+0511.898 (0) Googledrive chunked upload: 98.8 % uploaded (403701760)
+0512.659 (0) The time we have been running (512.7) is approaching the resumption interval (542) - increasing resumption interval to 543
+0512.667 (0) Googledrive chunked upload: 99.1 % uploaded (404750336)
+0513.420 (0) The time we have been running (513.4) is approaching the resumption interval (543) - increasing resumption interval to 544
+0513.431 (0) Googledrive chunked upload: 99.3 % uploaded (405798912)
+0514.216 (0) The time we have been running (514.2) is approaching the resumption interval (544) - increasing resumption interval to 545
+0514.224 (0) Googledrive chunked upload: 99.6 % uploaded (406847488)
+0514.973 (0) Googledrive chunked upload: 99.8 % uploaded (407896064)
+0519.517 (0) The time we have been running (519.5) is approaching the resumption interval (545) - increasing resumption interval to 550
+0519.526 (0) Googledrive chunked upload: 100 % uploaded (407896064)
+0519.539 (0) Google Drive: OK: Archive backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-uploads.zip uploaded in 339.1 seconds
+0519.542 (0) Recording as successfully uploaded: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-uploads.zip
+0519.570 (0) Deleting local file: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-uploads.zip: OK
+0520.258 (0) Google Drive: quota usage: used=1507.3 MB, total=10487267.3 MB, available=10485760 MB
+0520.263 (0) Google Drive: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-others.zip: Attempting to upload to Google Drive (into folder id: 18OXNXDl8YpYGY6hRvbUI1RRfV1aBGynC)
+0522.907 (0) The time we have been running (522.9) is approaching the resumption interval (550) - increasing resumption interval to 553
+0522.916 (0) Googledrive chunked upload: 100 % uploaded
+0522.929 (0) Google Drive: OK: Archive backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-others.zip uploaded in 2.66 seconds
+0522.933 (0) Recording as successfully uploaded: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-others.zip
+0522.945 (0) Deleting local file: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-others.zip: OK
+0523.466 (0) Google Drive: quota usage: used=1507.3 MB, total=10487267.3 MB, available=10485760 MB
+0523.471 (0) Google Drive: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db.gz: Attempting to upload to Google Drive (into folder id: 18OXNXDl8YpYGY6hRvbUI1RRfV1aBGynC)
+0525.436 (0) The time we have been running (525.4) is approaching the resumption interval (553) - increasing resumption interval to 556
+0525.444 (0) Googledrive chunked upload: 56.3 % uploaded (1048576)
+0527.667 (0) The time we have been running (527.7) is approaching the resumption interval (556) - increasing resumption interval to 558
+0527.676 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0527.689 (0) Google Drive: OK: Archive backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db.gz uploaded in 4.21 seconds
+0527.693 (0) Recording as successfully uploaded: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db.gz
+0527.703 (0) Deleting local file: backup_2020-04-28-0855_LASTBREATH_3e5e9241ab64-db.gz: OK
+0527.717 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0527.721 (0) Number of backup sets in history: 1; groups (db): 1
+0527.725 (0) Examining (for databases) backup set with group_id=0, nonce=3e5e9241ab64, datestamp=1588064110 (Apr 28 2020 08:55:10)
+0527.729 (0) This backup set is the backup set just made, so will not be deleted.
+0527.729 (0) Number of backup sets in history: 1; groups (files): 1
+0527.733 (0) Examining (for files) backup set with nonce=3e5e9241ab64, datestamp=1588064110 (Apr 28 2020 08:55:10)
+0527.733 (0) This backup set is the backup set just made, so will not be deleted.
+0527.737 (0) This backup set is the backup set just made, so will not be deleted.
+0527.737 (0) This backup set is the backup set just made, so will not be deleted.
+0527.737 (0) This backup set is the backup set just made, so will not be deleted.
+0527.737 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0527.741 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0527.750 (0) Resume backup (3e5e9241ab64, 0): finish run
+0527.762 (0) Decremented the semaphore (fd) by 1
+0527.770 (0) Semaphore (fd) unlocked
+0527.774 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0527.791 (0) No email will/can be sent - the user has not configured an email address.
+0527.795 (0) The backup apparently succeeded and is now complete
